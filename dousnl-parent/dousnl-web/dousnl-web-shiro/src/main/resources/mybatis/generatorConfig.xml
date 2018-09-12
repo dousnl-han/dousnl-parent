@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE generatorConfiguration  
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"  
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<!--详见官方配置说明： http://mybatis.github.io/generator/configreference/xmlconfig.html -->
+<generatorConfiguration>
+	<!-- 引入配置文件 -->
+	<properties resource="mybatis/mybatis-generator.properties" />
+	
+	<!-- 指定数据连接驱动jar地址 --> 
+	<classPathEntry location="${mybatis.codegen.jdbcDriverPath}" />
+
+	<!-- 一个数据库一个context --> 
+	<context id="MBG" targetRuntime="MyBatis3" defaultModelType="conditional">
+	
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+		
+		<plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+			<property name="searchString" value="Example$" />
+			<property name="replaceString" value="Criteria" />
+		</plugin>
+
+		<!-- 注释 -->  
+        <commentGenerator >  
+            <property name="suppressAllComments" value="false"/><!-- 是否取消注释 -->  
+            <property name="suppressDate" value="true" /> <!-- 是否生成注释代时间戳-->  
+        </commentGenerator>  
+
+		<!-- jdbc连接 -->
+		<jdbcConnection driverClass="${jdbc.driver}"
+			connectionURL="${jdbc.url}" userId="${jdbc.username}" password="${jdbc.password}" />
+
+		<!-- 类型转换 -->  
+        <javaTypeResolver>  
+            <!-- 是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.） -->  
+            <property name="forceBigDecimals" value="false"/>  
+        </javaTypeResolver>  
+
+		<!-- 生成实体类地址 -->  
+		<javaModelGenerator targetPackage="${mybatis.codegen.modelPackage}"
+			targetProject="MAVEN">
+			<!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] --> 
+			<property name="enableSubPackages" value="true" />
+			<!-- 是否针对string类型的字段在set的时候进行trim调用 -->  
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+        <!-- 生成mapxml文件 --> 
+		<sqlMapGenerator targetPackage="${mybatis.codegen.sqlMapperPackage}"
+			targetProject="MAVEN">
+			<!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->  
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+        <!-- 生成mapxml对应client，也就是接口dao --> 
+		<javaClientGenerator type="XMLMAPPER"
+			targetPackage="${mybatis.codegen.daoMapperPackage}" targetProject="MAVEN">
+			<!-- 是否在当前路径下新加一层schema,eg：fase路径com.oop.eksp.user.model， true:com.oop.eksp.user.model.[schemaName] -->  
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<!-- 配置表信息 -->
+		<!-- schema即为数据库名 tableName为对应的数据库表 domainObjectName是要生成的实体类 enable*ByExample 是否生成 example类   --> 
+		<table tableName="JDP_USER" domainObjectName="User"
+			enableCountByExample="true" enableUpdateByExample="true"
+			enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true">
+<!-- 			<property name="useActualColumnNames" value="true" /> -->
+			<generatedKey column="ID_" sqlStatement="ORACLE" identity="true" />
+			<!-- 指定列的java数据类型 --> 
+			<columnOverride column="ID_" property="id" javaType="java.lang.Long" />
+			<columnOverride column="NAME_" property="name" />
+			<!-- 忽略列，不生成bean 字段 --> 
+<!-- 			<ignoreColumn column="PERSON_ID" /> -->
+		</table>
+	</context>
+</generatorConfiguration>  

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.dousnl.xplat</groupId>
+    <artifactId>dousnl-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>org.dousnl.xplat</groupId>
+  <artifactId>dousnl-web</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <modules>
+		<!-- <module>dousnl-web-manage</module> -->
+        <module>dousnl-web-protal</module>
+        <module>dousnl-web-cloud</module>
+        <module>dousnl-web-shiro</module>
+  </modules>
+  <name>dousnl-web</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    
+     <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+	    
+    <!-- java Redis jar开始 -->
+    <dependency>
+	    <groupId>redis.clients</groupId>
+	    <artifactId>jedis</artifactId>
+	    <version>2.9.0</version>
+	</dependency>
+	<!-- java Redis jar结束 -->
+	
+	<!-- redis-session共享开始 -->
+	    <!--此处redis-session共享在具体子项目中配置-->
+	<!-- redis-session共享结束 -->
+	
+    <!-- Shiro安全框架 -->
+	<dependency>  
+        <groupId>org.apache.shiro</groupId>  
+        <artifactId>shiro-core</artifactId>  
+        <version>1.2.3</version>  
+    </dependency>
+    <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-ehcache</artifactId>
+        <version>1.2.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-web</artifactId>
+        <version>1.2.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-spring</artifactId>
+        <version>1.2.3</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.ehcache</groupId>
+      <artifactId>ehcache-core</artifactId>
+      <version>2.6.9</version>
+    </dependency>
+   <!-- Shiro安全框架结束 -->
+   
+    <!-- mybatis -->
+        <!-- 需要mybatis时，再加上此配置 -->
+	    <!-- <dependency>
+		    <groupId>org.mybatis.spring.boot</groupId>
+		    <artifactId>mybatis-spring-boot-starter</artifactId>
+		    <version>1.1.1</version>
+		</dependency> -->
+    <!-- mybatis -->
+    
+    <!-- springMvc依赖. -->
+	    <dependency>
+	        <groupId>javax.servlet</groupId>
+	        <artifactId>javax.servlet-api</artifactId>
+	        <version>3.1.0</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>javax.servlet</groupId>
+	        <artifactId>jstl</artifactId>
+	        <version>1.2</version>
+	    </dependency>
+	    
+	      <!-- 部署外部tomcat此配置需要注释掉 -->
+	      <dependency>
+	         <groupId>org.springframework.boot</groupId>
+	         <artifactId>spring-boot-starter-tomcat</artifactId>
+	         <scope>provided</scope>
+	     </dependency>
+	     <!-- <dependency>
+	         <groupId>org.springframework.boot</groupId>
+	         <artifactId>spring-boot-starter-websocket</artifactId>
+	     </dependency> -->
+	     <!-- MVC jsp支持 -->
+	     <dependency>
+	         <groupId>org.apache.tomcat.embed</groupId>
+	         <artifactId>tomcat-embed-jasper</artifactId>
+	         <scope>provided</scope>
+	     </dependency>
+	     <!-- MVC jsp支持 -->
+     <!-- springMvc依赖. -->
+  </dependencies>
+</project>

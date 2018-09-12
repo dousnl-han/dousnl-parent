@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+		"-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+		"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<classPathEntry location="C:\Users\Administrator.8XPGT71XO5A2PKM\.m2\repository\com\oracle\ojdbc14\10.2.0.4.0\ojdbc14-10.2.0.4.0.jar" />
+	<context id="oyjrbz-bd" defaultModelType="flat">
+		<plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>		
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin">
+			<property name="suppressJavaInterface" value="false" />
+		</plugin>
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+		<jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@10.60.17.241:1521:dg1"
+			userId="oyjr_bzxm_uat" password="oyjr_bzxm_uat" />
+		<javaModelGenerator targetPackage="com.ouyeel.workFlow.entity" targetProject="bzxm1/src/main/java"/>
+		<sqlMapGenerator targetPackage="com.ouyeel.workFlow.dao.mapper" targetProject="bzxm1/src/main/java" />
+		<javaClientGenerator targetPackage="com.ouyeel.workFlow.dao.mapper" targetProject="bzxm1/src/main/java" type="XMLMAPPER"/>
+		<!-- 物料分类表 -->
+		<!-- <table schema="oyjr_bzxm_uat" tableName="BZ_TEMPLATE_ITEM" domainObjectName="BzTemplateItem" 
+		    enableCountByExample="false" 
+		    enableSelectByExample="false" 
+		    enableUpdateByExample="false" 
+		    enableDeleteByExample="false">
+		</table> -->
+		<!-- <table schema="oyjr_bzxm_uat" tableName="bz_buisness_direction" domainObjectName="BzBuisnessDirection" 
+		    enableCountByExample="false" 
+		    enableSelectByExample="false" 
+		    enableUpdateByExample="false" 
+		    enableDeleteByExample="false">
+		</table> -->
+		<table schema="oyjr_bzxm_uat" tableName="BZ_TEMPLATE_HEADER" domainObjectName="BzTemplateHeader" 
+		    enableCountByExample="false" 
+		    enableSelectByExample="false" 
+		    enableUpdateByExample="false" 
+		    enableDeleteByExample="false">
+		</table>
+		
+		
+	</context>
+</generatorConfiguration>

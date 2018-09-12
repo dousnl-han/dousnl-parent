@@ -1,0 +1,4 @@
+#此文件为自己编写
+Manifest-Version:1.0
+Main-Class:com.boot.SpringBootAppcation
+Class-Path:E:\jar\bootjar.jar

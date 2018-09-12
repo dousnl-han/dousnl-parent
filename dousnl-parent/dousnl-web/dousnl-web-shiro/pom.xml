@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.dousnl.xplat</groupId>
+    <artifactId>dousnl-web</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>org.dousnl.xplat</groupId>
+  <artifactId>dousnl-web-shiro</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>dousnl-web-shiro Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  
+  <properties>
+     <druid.version>1.0.18</druid.version>
+     <pagehelper.version>4.0.1</pagehelper.version>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    
+    <!-- 父工程依赖开始 -->
+    <dependency>
+       <groupId>org.springframework.boot</groupId>
+       <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!-- mybatis单独配置，父工程中已注释掉开始 -->
+	<dependency>
+	    <groupId>org.mybatis.spring.boot</groupId>
+	    <artifactId>mybatis-spring-boot-starter</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	<dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>druid</artifactId>
+		<version>${druid.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>com.github.pagehelper</groupId>
+		<artifactId>pagehelper</artifactId>
+		<version>${pagehelper.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>${mysql.version}</version>
+	</dependency>
+		<dependency>
+	    <groupId>commons-fileupload</groupId>
+	    <artifactId>commons-fileupload</artifactId>
+	    <version>1.3.1</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>dousnl-web-shiro</finalName>
+    
+    <plugins>
+	    <plugin>
+	         <groupId>org.apache.maven.plugins</groupId>
+	         <artifactId>maven-war-plugin</artifactId>
+	         <version>2.6</version>
+	         <configuration>
+	             <warName>dousnl-web-shiro</warName>
+	             <webResources>
+	                 <resource>
+	                     <directory>src/main/resources/environment/${profiles.active}</directory>
+	                     <targetPath>WEB-INF/classes/environment/</targetPath>
+	                 </resource>
+	             </webResources>
+	             <packagingExcludes>
+	                 WEB-INF/classes/environment/deve/**,
+	                 WEB-INF/classes/environment/test/**,
+	                 WEB-INF/classes/environment/prod/**
+	             </packagingExcludes>
+	         </configuration>
+	     </plugin>
+    </plugins>
+    <resources>
+        <resource>
+            <directory>src/main/resources/</directory>
+            <filtering>true</filtering>
+            <includes>
+                <include>**/*.properties</include>
+                <include>**/*.xml</include>
+            </includes>
+            <excludes><!-- 排除掉跟运行环境相关的资源文件 -->
+                <exclude>environment/test/*</exclude>
+                <exclude>environment/prod/*</exclude>
+                <exclude>environment/dev/*</exclude>
+                <exclude>environment/show/*</exclude>
+            </excludes>
+        </resource>
+        <resource><!-- 根据运行环境来包含资源文件 -->
+            <directory>src/main/resources/environment/${profiles.active}</directory>
+        </resource>
+        <resource>
+            <directory>src/main/resources/</directory>
+            <filtering>false</filtering>
+        </resource>
+        <resource>
+            <directory>src/main/java</directory>
+            <includes>
+                <include>**/*.xml</include>
+            </includes>
+            <filtering>false</filtering>
+        </resource>
+    </resources>
+  </build>
+  
+  <profiles>
+        <profile>
+            <!-- 开发环境 -->
+            <id>dev</id>
+            <properties>
+                <profiles.active>dev</profiles.active>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <!-- 测试环境 -->
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+            </properties>
+        </profile>
+        <profile>
+            <!-- 生成swagger文档 -->
+            <id>swagger-build</id>
+            <activation>
+                <property>
+                    <name>testing</name>
+                </property>
+            </activation>
+        </profile>
+        <profile>
+            <!-- 生产环境 -->
+            <id>production</id>
+            <properties>
+                <profiles.active>production</profiles.active>
+            </properties>
+        </profile>
+    </profiles>
+</project>
