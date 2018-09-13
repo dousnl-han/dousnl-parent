@@ -28,7 +28,7 @@
         </property>
     </bean>
     
-    <!-- <import resource="applicationContext-shiro-common.xml" /> -->
+    <import resource="applicationContext-shiro.xml" />
     
     <bean id="propertyConfigurer"
           class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
