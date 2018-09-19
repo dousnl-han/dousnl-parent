@@ -106,13 +106,13 @@
 	   <form class="registerform" action="${ctx}/loginIn">
 		   <div class="fm-item">
 			   <label for="logonId" class="form-label">MISS系统登陆：</label>
-			   <input type="text" value="输入账号" maxlength="100" id="username" name="username" class="i-text" ajaxurl="demo/valid.jsp"  datatype="s6-18" errormsg="用户名至少6个字符,最多18个字符！"  >    
+			   <input type="text" value="输入账号" maxlength="100" id="username" name="username" class="i-text"  datatype="s4-18" errormsg="用户名至少4个字符,最多18个字符！"  >    
 		       <div class="ui-form-explain"></div>
 		  </div>
 		  
 		  <div class="fm-item">
 			   <label for="logonId" class="form-label">登陆密码：</label>
-			   <input type="password" value="" maxlength="100" id="password" name="password" class="i-text" datatype="*6-16" nullmsg="请设置密码！" errormsg="密码范围在6~16位之间！">    
+			   <input type="password" value="" maxlength="100" id="password" name="password" class="i-text" datatype="*4-16" nullmsg="请设置密码！" errormsg="密码范围在4~16位之间！">    
 		       <div class="ui-form-explain"></div>
 		  </div>
 		  

@@ -8,20 +8,30 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/login")
+@RequestMapping
 public class LoginController {
 
 	
-	@RequestMapping(method=RequestMethod.GET)
+	@RequestMapping(value="/login",method=RequestMethod.GET)
 	public String toLogin(){
 		return "login";
 	}
-	
-	@RequestMapping(value="/index",method=RequestMethod.GET)
+	@RequestMapping(value="/index/success",method=RequestMethod.GET)
+	@ResponseBody
+	public String success(){
+		return "/index/success";
+	}
+	@RequestMapping(value="/index/loginSuccess",method=RequestMethod.GET)
 	public String toIndex(){
 		return "index";
+	}
+	@RequestMapping(value="/index/body",method=RequestMethod.GET)
+	@ResponseBody
+	public String body(){
+		return "/index/body";
 	}
 	
 	@RequestMapping(value="/loginIn",method=RequestMethod.POST)

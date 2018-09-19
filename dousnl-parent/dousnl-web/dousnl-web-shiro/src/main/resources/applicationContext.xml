@@ -36,7 +36,7 @@
     </bean>
 
     <!-- IOC注解 -->
-    <context:component-scan base-package="com.dousnl.shiro.**.service">
+    <context:component-scan base-package="com.dousnl.**.service">
         <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
     <tx:annotation-driven proxy-target-class="true"/>
@@ -83,6 +83,7 @@
         <property name="configLocation" value="classpath:/mybatis/mybatis-config.xml"/>
         <property name="mapperLocations">
             <list>
+                <value>classpath:com/dousnl/**/mapper/*.xml</value>
                 <value>classpath*:mybatis/**/*Mapper.xml</value>
                 <value>classpath*:mybatis/**/*Mapper2.xml</value>
             </list>

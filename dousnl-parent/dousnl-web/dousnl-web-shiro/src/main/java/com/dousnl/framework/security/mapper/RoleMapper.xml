@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="org.dousnl.shiro.mapper.RoleMapper" >
-  <resultMap id="BaseResultMap" type="org.dousnl.shiro.domain.Role" >
+<mapper namespace="com.dousnl.framework.security.mapper.RoleMapper" >
+  <resultMap id="BaseResultMap" type="com.dousnl.framework.security.domain.Role" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="role_name" property="roleName" jdbcType="VARCHAR" />
   </resultMap>
@@ -18,11 +18,11 @@
     delete from t_role
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="org.dousnl.shiro.domain.Role" >
+  <insert id="insert" parameterType="com.dousnl.framework.security.domain.Role" >
     insert into t_role (id, role_name)
     values (#{id,jdbcType=INTEGER}, #{roleName,jdbcType=VARCHAR})
   </insert>
-  <insert id="insertSelective" parameterType="org.dousnl.shiro.domain.Role" >
+  <insert id="insertSelective" parameterType="com.dousnl.framework.security.domain.Role" >
     insert into t_role
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -41,7 +41,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="org.dousnl.shiro.domain.Role" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.dousnl.framework.security.domain.Role" >
     update t_role
     <set >
       <if test="roleName != null" >
@@ -50,9 +50,16 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="org.dousnl.shiro.domain.Role" >
+  <update id="updateByPrimaryKey" parameterType="com.dousnl.framework.security.domain.Role" >
     update t_role
     set role_name = #{roleName,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  
+  <select id="getRole" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    select 
+    <include refid="Base_Column_List" />
+    from t_role
+    where id = #{roleId,jdbcType=INTEGER}
+  </select>
 </mapper>

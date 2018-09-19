@@ -2,6 +2,8 @@ package com.dousnl.framework.security.mapper;
 
 import java.util.Set;
 
+import org.apache.ibatis.annotations.Param;
+
 import com.dousnl.framework.security.domain.User;
 
 public interface UserMapper {
@@ -24,4 +26,6 @@ public interface UserMapper {
 	Set<String> selectPermissionsByUser(User user);
     
     int updateByMaxId(User user);
+
+	User findByUsername(@Param("username")String username);
 }

@@ -1,5 +1,7 @@
 package com.dousnl.framework.security.mapper;
 
+import org.apache.ibatis.annotations.Param;
+
 import com.dousnl.framework.security.domain.Role;
 
 public interface RoleMapper {
@@ -16,4 +18,6 @@ public interface RoleMapper {
     int updateByPrimaryKeySelective(Role record);
 
     int updateByPrimaryKey(Role record);
+
+	Role getRole(@Param("roleId")Integer roleId);
 }

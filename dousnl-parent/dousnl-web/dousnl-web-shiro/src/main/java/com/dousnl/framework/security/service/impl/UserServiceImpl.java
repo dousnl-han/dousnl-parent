@@ -15,7 +15,7 @@ import com.dousnl.framework.security.mapper.TXqbMapper;
 import com.dousnl.framework.security.mapper.UserMapper;
 import com.dousnl.framework.security.service.UserService;
 
-@Service
+@Service(value = "userService")
 @Transactional(propagation = Propagation.REQUIRED,rollbackFor=Exception.class)
 public class UserServiceImpl implements UserService {
 
@@ -124,6 +124,6 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public User findByUsername(String username) {
 		// TODO Auto-generated method stub
-		return null;
+		return userMapper.findByUsername(username);
 	}
 }

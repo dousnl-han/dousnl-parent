@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="org.dousnl.shiro.mapper.UserMapper" >
-  <resultMap id="BaseResultMap" type="org.dousnl.shiro.domain.User" >
+<mapper namespace="com.dousnl.framework.security.mapper.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.dousnl.framework.security.domain.User" >
     <id column="id" property="id" jdbcType="INTEGER" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="password" property="password" jdbcType="VARCHAR" />
@@ -20,13 +20,13 @@
     delete from t_user
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" parameterType="org.dousnl.shiro.domain.User" >
+  <insert id="insert" parameterType="com.dousnl.framework.security.domain.User" >
     insert into t_user (id, username, password, 
       role_id)
     values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
       #{roleId,jdbcType=INTEGER})
   </insert>
-  <insert id="insertSelective" parameterType="org.dousnl.shiro.domain.User" >
+  <insert id="insertSelective" parameterType="com.dousnl.framework.security.domain.User" >
     insert into t_user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -57,7 +57,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="org.dousnl.shiro.domain.User" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.dousnl.framework.security.domain.User" >
     update t_user
     <set >
       <if test="username != null" >
@@ -72,14 +72,14 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="org.dousnl.shiro.domain.User" >
+  <update id="updateByPrimaryKey" parameterType="com.dousnl.framework.security.domain.User" >
     update t_user
     set username = #{username,jdbcType=VARCHAR},
       password = #{password,jdbcType=VARCHAR},
       role_id = #{roleId,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <select id="selectByUser" parameterType="org.dousnl.shiro.domain.User" resultMap="BaseResultMap">
+  <select id="selectByUser" parameterType="com.dousnl.framework.security.domain.User" resultMap="BaseResultMap">
      select * from t_user where 1=1
       <if test="username != null" >
         and username = #{username,jdbcType=VARCHAR}
@@ -91,7 +91,7 @@
         and role_id = #{roleId,jdbcType=INTEGER}
       </if>
   </select>
-  <select id="selectRolesByUser" parameterType="org.dousnl.shiro.domain.User" resultType="java.lang.String">
+  <select id="selectRolesByUser" parameterType="com.dousnl.framework.security.domain.User" resultType="java.lang.String">
       select * from t_user u,t_role r where t.role_id=r.id
       <if test="username != null" >
         and username = #{username,jdbcType=VARCHAR}
@@ -100,7 +100,7 @@
         and password = #{password,jdbcType=VARCHAR}
       </if>
   </select>
-  <select id="selectPermissionsByUser" parameterType="org.dousnl.shiro.domain.User" resultType="java.lang.String">
+  <select id="selectPermissionsByUser" parameterType="com.dousnl.framework.security.domain.User" resultType="java.lang.String">
       select * from t_user u,t_role r,t_permission p
       where u.role_id=r.id and p.role_id=r.id 
       <if test="username != null" >
@@ -117,4 +117,8 @@
   <update id="updateByMaxId">
      update t_user set password='updateByMaxId' where id=(select t.id from (select max(id) as id from t_user) t)
   </update>
+  
+  <select id="findByUsername" parameterType="string" resultType="com.dousnl.framework.security.domain.User">
+      select * from t_user u where user_name=#{username}
+  </select>
 </mapper>

@@ -12,6 +12,8 @@ import org.apache.shiro.subject.PrincipalCollection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.alibaba.fastjson.JSON;
 import com.dousnl.framework.security.domain.Role;
 import com.dousnl.framework.security.domain.User;
 import com.dousnl.framework.security.service.PermissionService;
@@ -55,7 +57,7 @@ public class ShiroRealm extends CasRealm{
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
+            logger.info("用户授权信息:"+JSON.toJSONString(authorizationInfo));
             return authorizationInfo;
         }
         return null;
@@ -67,6 +69,12 @@ public class ShiroRealm extends CasRealm{
      */
 	@Override
 	protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
+		AuthenticationInfo authInfo = super.doGetAuthenticationInfo(token);
+		PrincipalCollection coll = authInfo.getPrincipals();
+		List list = coll.asList();
+		String loginName = (String) list.get(0);
+		User user = null;
+		Object object = null;
 		return super.doGetAuthenticationInfo(token);
 	}
 	

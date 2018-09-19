@@ -1,5 +1,7 @@
 package com.dousnl.framework.security.mapper;
 
+import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 import com.dousnl.framework.security.domain.Permission;
@@ -18,4 +20,6 @@ public interface PermissionMapper {
     int updateByPrimaryKey(Permission record);
     
     Permission selectByRoleId(@Param("roleId") Integer roleId);
+
+	List<String> getPermissions(@Param("roleId")Integer roleId);
 }

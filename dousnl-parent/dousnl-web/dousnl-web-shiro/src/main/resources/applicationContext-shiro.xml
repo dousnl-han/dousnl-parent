@@ -18,7 +18,7 @@
        default-lazy-init="false">
     <description>Shiro公共配置</description>
     
-    <bean id="casRealm" class="com.dousnl.framework.security.ShiroRealm">
+    <bean id="shiroCasRealm" class="com.dousnl.framework.security.ShiroRealm">
 		<property name="cachingEnabled" value="true" />
 		<property name="authenticationCachingEnabled" value="true" />
 		<property name="authenticationCacheName" value="authenticationCache" />
@@ -26,10 +26,10 @@
 		<!-- 配置cas服务器地址 -->
 		<property name="casServerUrlPrefix" value="http://${sso.server.url}/cas" />
 		<!-- 客户端的回调地址设置，必须和上面的shiro-cas过滤器casFilter拦截的地址一致 -->
-		<property name="casService" value="http://${bzxm.server.url}/admin/shiroCas" />
+		<property name="casService" value="http://${shxm.server.url}/index/success" />
 		<!-- cas integration end-->
-		<property name="userService" ref="userService" />
-		<property name="userAuthService" ref="userAuthService" />
+		<!-- <property name="userService" ref="userService" />
+		<property name="userAuthService" ref="userAuthService" /> -->
 	</bean>
     <bean id="casSubjectFactory" class="org.apache.shiro.cas.CasSubjectFactory" />
     <bean id="rememberMeCookie" class="org.apache.shiro.web.servlet.SimpleCookie">
@@ -47,9 +47,11 @@
 		  class="org.apache.shiro.web.session.mgt.ServletContainerSessionManager">
 	</bean>
     <!-- 用户授权信息Cache, 采用EhCache -->
-	<bean id="shiroEhcacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager" />
+	<bean id="shiroEhcacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+	    <property name="cacheManagerConfigFile" value="classpath:ehcache/ehcache-shiro.xml"/>
+	</bean>
 	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
-		<property name="realm" ref="casRealm" />
+		<property name="realm" ref="shiroCasRealm" />
 		<!-- 解决sessionid问题  本地化 -->
 		<property name="sessionMode" value="native"/>
 		
@@ -59,35 +61,30 @@
 		<property name="subjectFactory" ref="casSubjectFactory" />
 	</bean>
     <!-- 后台配置管理 -->
-	<bean id="adminShiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+	<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
 		<property name="securityManager" ref="securityManager" />
 		<!-- cas  integration start-->
 		<!-- 设定角色的登录链接，这里为cas登录页面的链接可配置回调地址 -->
-		<property name="loginUrl" value="http://${sso.server.url}/cas/login?service=http://${bzxm.server.url}/admin/shiroCas&amp;sysCode=BZXM" />
+		<property name="loginUrl" value="http://${sso.server.url}/cas/login?service=http://${shxm.server.url}/index/success" />
 		<!-- cas integration end-->
-		<property name="successUrl" value="/expenseAppForm/chooseMouldDefClass" />
+		<property name="successUrl" value="/index/success" />
 		<!-- <property name="unauthorizedUrl" value="/admin/unauthorized" /> -->
 		<property name="filters">
 			<util:map>
 				<!-- <entry key="authc" value-ref="captchaAuthenticationFilter" />
 				<entry key="logout" value-ref="adminLogoutFilter" />
 				<entry key="session" value-ref="onlineSessionFilter" /> -->
-				<entry key="cas" value-ref="casFilter" />
+				<entry key="casFilter" value-ref="casFilter" />
 				<entry key="logout" value-ref="logoutFilter" />
 			</util:map>
 		</property>
 		<property name="filterChainDefinitions">
             <value>
-                /shiro-cas = cas
-				/admin/logout = logout
-				/static/** = anon
-				/api/**=anon
-				/admin/unauthorized =anon
-				/admin/cas_error =anon
-				/admin/permloading =anon
-				/admin/sec/captcha = anon
-				/admin/shiroCas =cas
-				/admin/** =session,user
+                /index/success = casFilter
+                /static/** = anon
+                /logout = logout
+                /** = user
+				<!-- /admin/** =session,user
 				/shiro-cas = user
 				/fieldDef/** = user
 				/mouldClass/** = user
@@ -97,7 +94,7 @@
 				/check/** = user
 				/expenseAppForm/** = user
 				/reportForm/** = user
-				/bzCheckController/** = user
+				/bzCheckController/** = user -->
             </value>
         </property>
 		<!-- spel语言 -->
@@ -107,11 +104,11 @@
 	<!-- shiro-cas登录过滤器 -->
 	<bean id="casFilter" class="org.apache.shiro.cas.CasFilter">
 		<!-- 配置验证错误时的失败页面 ，这里配置为登录页面 -->
-		<property name="failureUrl" value="/admin/cas_error" />
+		<property name="failureUrl" value="http://${sso.server.url}/cas/login?service=http://${shxm.server.url}/login" />
 	</bean>
 	<!-- 退出登录过滤器 -->
 	<bean id="logoutFilter" class="org.apache.shiro.web.filter.authc.LogoutFilter">
-		<property name="redirectUrl" value="http://${sso.server.url}/cas/logout?service=http://${bzxm.server.url}&amp;sysCode=BZXM" />
+		<property name="redirectUrl" value="http://${sso.server.url}/cas/logout?service=http://${shxm.server.url}/login" />
 	</bean>
 	
 	<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor" />
@@ -132,7 +129,7 @@
 				/admin/cas_error =anon
 				/admin/permloading =anon
 				/admin/sec/captcha = anon
-				/admin/shiroCas =cas
+				/index =cas
 				/admin/** =session,user
 				/shiro-cas = user
 				/fieldDef/** = user
