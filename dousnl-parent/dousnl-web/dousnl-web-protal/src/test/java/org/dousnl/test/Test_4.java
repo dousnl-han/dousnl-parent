@@ -1,6 +1,6 @@
 package org.dousnl.test;
 
-import org.dousnl.api.domain.User;
+import com.dousnl.api.domain.User;
 
 public class Test_4 {
 	

@@ -2,14 +2,12 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <parent>
-    <groupId>org.dousnl.xplat</groupId>
+    <groupId>com.dousnl</groupId>
     <artifactId>dousnl-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.dousnl.xplat</groupId>
   <artifactId>dousnl-service</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>dousnl-service</name>
   <url>http://maven.apache.org</url>
@@ -29,12 +27,12 @@
          </exclusions>  
      </dependency>
     <dependency>
-	  <groupId>org.dousnl.xplat</groupId>
+	  <groupId>com.dousnl</groupId>
 	  <artifactId>dousnl-api</artifactId>
 	  <version>0.0.1-SNAPSHOT</version>
 	</dependency>
 	<dependency>
-		<groupId>org.dousnl.xplat</groupId>
+		<groupId>com.dousnl</groupId>
 		<artifactId>dousnl-boot</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>

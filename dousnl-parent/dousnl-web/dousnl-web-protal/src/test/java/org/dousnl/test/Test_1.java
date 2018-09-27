@@ -1,15 +1,16 @@
 package org.dousnl.test;
 
-import org.dousnl.SpringBootAppcation;
-import org.dousnl.shiro.domain.User;
-import org.dousnl.shiro.mapper.UserMapper;
-import org.dousnl.shiro.service.UserService;
+import com.dousnl.SpringBootAppcation;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import com.dousnl.shiro.domain.User;
+import com.dousnl.shiro.mapper.UserMapper;
+import com.dousnl.shiro.service.UserService;
 
 /**
  * 此配置为spring-boot项目测试注解

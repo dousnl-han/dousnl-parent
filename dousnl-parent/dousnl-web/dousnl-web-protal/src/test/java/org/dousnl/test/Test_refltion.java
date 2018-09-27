@@ -1,9 +1,8 @@
 package org.dousnl.test;
 
-import org.dousnl.shiro.domain.User;
-import org.dousnl.util.Reflections;
-
 import com.alibaba.fastjson.JSON;
+import com.dousnl.shiro.domain.User;
+import com.dousnl.util.Reflections;
 
 public class Test_refltion {
 	

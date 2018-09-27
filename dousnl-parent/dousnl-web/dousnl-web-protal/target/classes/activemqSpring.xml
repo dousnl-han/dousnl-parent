@@ -17,7 +17,7 @@ default-lazy-init="true">
 
     <!-- 指明需要进行annotation扫描的包 -->
 	<context:component-scan
-		base-package="org.dousnl.activemq" use-default-filters="true">
+		base-package="com.dousnl.activemq" use-default-filters="true">
 	</context:component-scan>
 	
 	
@@ -83,8 +83,8 @@ default-lazy-init="true">
     
     
     <!-- 消息监听器类 -->  
-    <bean id="queueReceiver1" class="org.dousnl.activemq.spring.listener.QueueReceiver1" />
-    <bean id="queueReceiver2" class="org.dousnl.activemq.spring.listener.QueueReceiver2" />
+    <bean id="queueReceiver1" class="com.dousnl.activemq.spring.listener.QueueReceiver1" />
+    <bean id="queueReceiver2" class="com.dousnl.activemq.spring.listener.QueueReceiver2" />
 	<!-- spring配置形式  消息监听容器开始  -->
 	<bean id="jmsContainer" class="org.springframework.jms.listener.DefaultMessageListenerContainer">  
 	        <property name="connectionFactory" ref="connectionFactory"/>  

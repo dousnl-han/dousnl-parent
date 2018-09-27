@@ -15,9 +15,9 @@
 		</commentGenerator>
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1:3306/test3"
 			userId="root" password="" />
-		<javaModelGenerator targetPackage="org.dousnl.shiro.domain" targetProject="dousnl-web-protal/src/main/java"/>
-		<sqlMapGenerator targetPackage="org.dousnl.shiro.mapper" targetProject="dousnl-web-protal/src/main/java" />
-		<javaClientGenerator targetPackage="org.dousnl.shiro.mapper" targetProject="dousnl-web-protal/src/main/java" type="XMLMAPPER"/>
+		<javaModelGenerator targetPackage="com.dousnl.shiro.domain" targetProject="dousnl-web-protal/src/main/java"/>
+		<sqlMapGenerator targetPackage="com.dousnl.shiro.mapper" targetProject="dousnl-web-protal/src/main/java" />
+		<javaClientGenerator targetPackage="com.dousnl.shiro.mapper" targetProject="dousnl-web-protal/src/main/java" type="XMLMAPPER"/>
 		<!-- 物料分类表 -->
 		<!-- <table schema="root" tableName="t_log_record" domainObjectName="TLogRecord" 
 		    enableCountByExample="false" 

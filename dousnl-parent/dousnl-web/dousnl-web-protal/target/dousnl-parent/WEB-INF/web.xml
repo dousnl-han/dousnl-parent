@@ -7,7 +7,7 @@
   <servlet>
     <description></description>
     <servlet-name>ServletDestory</servlet-name>
-    <servlet-class>org.dousnl.servlet.ServletDestory</servlet-class>
+    <servlet-class>com.dousnl.servlet.ServletDestory</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ServletDestory</servlet-name>

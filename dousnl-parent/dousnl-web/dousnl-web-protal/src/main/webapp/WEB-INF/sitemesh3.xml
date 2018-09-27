@@ -32,6 +32,6 @@
   
   <!-- 自定义 tag 规则 -->
   <content-processor>
-    <tag-rule-bundle class="org.dousnl.web.decorator.MyTagRuleBundle" />
+    <tag-rule-bundle class="com.dousnl.web.decorator.MyTagRuleBundle" />
   </content-processor>
 </sitemesh>

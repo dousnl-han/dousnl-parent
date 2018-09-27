@@ -31,19 +31,19 @@ default-lazy-init="true">
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
     <!-- dubbo注解已写入代码reference，故此处不需要再写dubbo:reference的配置，
          会自动去注册中心，注入相关注解的消费者的信息  -->
-    <!-- <dubbo:reference id="helloService"  interface="org.dousnl.api.service.HelloService" /> -->
+    <!-- <dubbo:reference id="helloService"  interface="com.dousnl.api.service.HelloService" /> -->
     
-    <dubbo:annotation package="org.dousnl" />
+    <dubbo:annotation package="com.dousnl" />
     
     <!-- dubbo注解已写入代码service，故此处不需要再写dubbo:service的配置，
          会自动去注册中心，注入相关注解的生产者的信息  -->
-    <!-- <dubbo:service interface="org.dousnl.dubbo.ProviderService" ref="providerService" protocol="dubbo"/> -->
+    <!-- <dubbo:service interface="com.dousnl.dubbo.ProviderService" ref="providerService" protocol="dubbo"/> -->
     
     <dubbo:consumer timeout="10000" retries="0" check="false" group="member" /> 
     <!-- 扫描注解包路径，多个包用逗号分隔，不填pacakge表示扫描当前ApplicationContext中所有的类 -->
 	
 	<!--具体实现该接口的 bean-->
-    <!-- <bean id="providerService" class="org.dousnl.dubbo.ProviderServiceImpl"/> -->
+    <!-- <bean id="providerService" class="com.dousnl.dubbo.ProviderServiceImpl"/> -->
 	
 	<!-- <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />

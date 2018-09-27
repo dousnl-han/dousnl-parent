@@ -3,13 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.dousnl.xplat</groupId>
+    <groupId>com.dousnl</groupId>
     <artifactId>dousnl-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>org.dousnl.xplat</groupId>
   <artifactId>dousnl-boot</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>dousnl-boot</name>
   <url>http://maven.apache.org</url>

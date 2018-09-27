@@ -1,8 +1,8 @@
 eclipse.preferences.version=1
 encoding//src/main/java=UTF-8
-encoding//src/main/java/org/dousnl/thread/JavaGenerics.java=UTF-8
-encoding//src/main/java/org/dousnl/util/JedisUtils.java=UTF-8
-encoding//src/main/java/org/dousnl/util/fileExport/ExcelExporter.java=UTF-8
+encoding//src/main/java/com/dousnl/thread/JavaGenerics.java=UTF-8
+encoding//src/main/java/com/dousnl/util/JedisUtils.java=UTF-8
+encoding//src/main/java/com/dousnl/util/fileExport/ExcelExporter.java=UTF-8
 encoding//src/main/resources=UTF-8
 encoding//src/main/resources/application-dev.properties=UTF-8
 encoding//src/main/resources/application-prod.properties=UTF-8
