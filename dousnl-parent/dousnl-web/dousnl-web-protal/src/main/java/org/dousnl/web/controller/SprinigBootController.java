@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
+@RequestMapping("/boot/")
 public class SprinigBootController {
 
 	@RequestMapping("/hello")

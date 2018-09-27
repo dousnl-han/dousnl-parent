@@ -34,6 +34,7 @@ import io.swagger.annotations.ApiOperation;
 @Controller
 @LogConfig(systemType="dousnl-protal",moudle="登录模块",moudleName="LoginController")
 @Api(tags="登录控制器Api")
+@RequestMapping("/login/")
 public class LoginController {
 	
 	private final Logger logger = LoggerFactory.getLogger(this.getClass());  
@@ -43,7 +44,7 @@ public class LoginController {
 	@Autowired
 	private RedisUtil redisUtil;
 	
-	@RequestMapping(value="login",method=RequestMethod.GET)
+	@RequestMapping(method=RequestMethod.GET)
 	@Log(name="login",value="登录")
 	public String login(String username,String password,HttpSession session,Model model){
 		System.out.println("==================login=====================");
@@ -134,7 +135,7 @@ public class LoginController {
 	}
 	@RequestMapping(value="fruitSwagger",method=RequestMethod.POST)
 	@ResponseBody
-	@ApiOperation(value="fruit测试",notes="fruit测试获取body信息")
+	@ApiOperation(value="fruit测试",notes="fruit测试获取body信息",position=1)
 	//写此注解，只是用于swagger端测试，并不是兼容其他测试工具
 	@ApiImplicitParams({
 		@ApiImplicitParam(name="id",value="fruit主键ID",paramType="body",dataType="int")

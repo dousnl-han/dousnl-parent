@@ -174,6 +174,7 @@ E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\security\domain\RolePermission.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\util\DateUtil.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\designmode\jiekou_shipeiqi\Targetable.java
+E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\web\controller\SwaggerController.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\webservice\axisclient\WeatherWSStub.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\message\SendSMS.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\designmode\lei_shipeiqi\AdapterTest.java
@@ -188,6 +189,7 @@ E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\designmode\jiekou_shipeiqi\SourceSub1.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\hadoop\LogProduce.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\security\domain\Tree.java
+E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\shiro\service\RoleService.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\httpclient\Result.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\sender\Sender.java
 E:\workspace\dousnl-parent\dousnl-web\dousnl-web-protal\src\main\java\org\dousnl\proxy\MyBusiness.java

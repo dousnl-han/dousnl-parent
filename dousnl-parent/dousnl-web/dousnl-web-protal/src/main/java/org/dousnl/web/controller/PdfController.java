@@ -27,6 +27,7 @@ import org.w3c.tidy.Tidy;
 import org.xhtmlrenderer.pdf.ITextRenderer;
 
 @Controller
+@RequestMapping("/pdf/")
 public class PdfController {
 
 	@RequestMapping("itext")

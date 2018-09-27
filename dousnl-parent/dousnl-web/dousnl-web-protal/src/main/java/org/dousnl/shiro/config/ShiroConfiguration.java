@@ -94,6 +94,7 @@ public class ShiroConfiguration {
 		filterDefaultMap.put("/login", "anon");//登录请求无需验证
 		//静态资源
 		filterDefaultMap.put("/resources/static/**", "anon");//静态资源无需验证
+		filterDefaultMap.put("/resources/**", "anon");//静态资源无需验证
 		/*filterDefaultMap.put("/html/**", "anon");
 		filterDefaultMap.put("/images/**", "anon");
 		filterDefaultMap.put("/js/**", "anon");*/
@@ -102,6 +103,8 @@ public class ShiroConfiguration {
 		filterDefaultMap.put("/loginUser", "anon");//登录请求无需验证
 		filterDefaultMap.put("/logout*", "anon");//注销请求无需验证
 		filterDefaultMap.put("/jsp/error.jsp*", "anon");//错误无需验证
+		filterDefaultMap.put("/swagger-ui.html/**", "anon");//swagger无需验证
+		filterDefaultMap.put("/swagger/**", "anon");//swagger无需验证
 		
 		filterDefaultMap.put("/itext*", "anon");//导出pdf无需验证
 		
@@ -110,8 +113,8 @@ public class ShiroConfiguration {
 		
 		
 		filterDefaultMap.put("/jsp/index.jsp*", "authc");//index页面需验证
-		filterDefaultMap.put("/*", "authc");
-		filterDefaultMap.put("/**", "authc");//其他所有请求需要验证
+		filterDefaultMap.put("/login/**", "authc");
+		filterDefaultMap.put("/dobbo/**", "authc");//配置个别请求需要验证
 		/*filterDefaultMap.put("/*.*", "authc");*/
 		
 		bean.setFilterChainDefinitionMap(filterDefaultMap);

@@ -49,6 +49,7 @@ org\dousnl\shiro\config\CredentialsMatcher.class
 org\dousnl\websocket\WiselyResponse.class
 org\dousnl\activemq\queue\QueueReciever.class
 org\dousnl\itext\WeekDay$1.class
+org\dousnl\shiro\service\RoleService.class
 org\dousnl\thread\bank\BankDemo.class
 org\dousnl\shiro\mapper\PermissionMapper.class
 org\dousnl\thread\redislock\DistributedLock.class
@@ -272,6 +273,7 @@ org\dousnl\designmode\duixiang_shipeiqi\Source.class
 org\dousnl\redis\configtwo\RedisClient.class
 org\dousnl\bio\TimeClient.class
 org\dousnl\redis\configtwo\RedisConfig.class
+org\dousnl\web\controller\SwaggerController.class
 org\dousnl\shiro\mapper\RoleMapper.class
 org\dousnl\activemq\staticnetwork\QueueReciever.class
 org\dousnl\netty\httpfile\HttpFileServer.class
