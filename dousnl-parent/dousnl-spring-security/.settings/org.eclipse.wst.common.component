@@ -5,6 +5,12 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="dousnl-api-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dousnl-api/dousnl-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dousnl-boot-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/dousnl-boot/dousnl-boot">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="dousnl-spring-security"/>
         <property name="java-output-path" value="/dousnl-spring-security/target/classes"/>
     </wb-module>

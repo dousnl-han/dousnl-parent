@@ -201,7 +201,7 @@
 	          <configuration>
 	             <!--  如果没有fork此配置，devtool肯定不会起作用，即不会restart -->
 	             <!-- <fork>true</fork> -->
-	             <mainClass>org.dousnl.SpringBootAppcation</mainClass>
+	             <mainClass>com.dousnl.SpringBootAppcation</mainClass>
 	          </configuration>	           
 	              <executions>
 	                  <execution>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dousnl-web-shiro:war">
+    <output-path>$PROJECT_DIR$/dousnl-web/dousnl-web-shiro/target</output-path>
+    <root id="archive" name="dousnl-web-shiro.war">
+      <element id="artifact" artifact-name="dousnl-web-shiro:war exploded" />
+    </root>
+  </artifact>
+</component>

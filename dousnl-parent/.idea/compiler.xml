@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dousnl-api" />
+        <module name="dousnl-boot" />
+        <module name="dousnl-security" />
+        <module name="dousnl-service" />
+        <module name="dousnl-spring-security" />
+        <module name="dousnl-web-cloud" />
+        <module name="dousnl-web-protal" />
+        <module name="dousnl-web-shiro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dousnl-api" target="1.8" />
+      <module name="dousnl-boot" target="1.8" />
+      <module name="dousnl-parent" target="1.8" />
+      <module name="dousnl-security" target="1.8" />
+      <module name="dousnl-service" target="1.8" />
+      <module name="dousnl-spring-security" target="1.8" />
+      <module name="dousnl-web" target="1.8" />
+      <module name="dousnl-web-cloud" target="1.8" />
+      <module name="dousnl-web-protal" target="1.8" />
+      <module name="dousnl-web-shiro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

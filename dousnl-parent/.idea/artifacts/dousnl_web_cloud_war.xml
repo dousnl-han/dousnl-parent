@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dousnl-web-cloud:war">
+    <output-path>$PROJECT_DIR$/dousnl-web/dousnl-web-cloud/target</output-path>
+    <root id="archive" name="dousnl-web-cloud.war">
+      <element id="artifact" artifact-name="dousnl-web-cloud:war exploded" />
+    </root>
+  </artifact>
+</component>
