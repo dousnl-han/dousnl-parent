@@ -10,7 +10,21 @@ import java.util.List;
 public class User implements Serializable{
     private Integer id;
 
-    private String username;
+    private String workNo;
+    
+    public String getWorkNo() {
+		return workNo;
+	}
+
+	public void setWorkNo(String workNo) {
+		this.workNo = workNo;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	private String username;
 
     private String password;
 
@@ -24,7 +38,14 @@ public class User implements Serializable{
         return id;
     }
 
-    public void setId(Integer id) {
+	public User(Integer id, String workNo, String username) {
+		super();
+		this.id = id;
+		this.workNo = workNo;
+		this.username = username;
+	}
+
+	public void setId(Integer id) {
         this.id = id;
     }
 
