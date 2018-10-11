@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.dousnl.mapper.TPermissionMapper;
 
-@Service(protocol={"dubbo"})
-@Path("tPermissionService")
+/*@Service(protocol={"dubbo"})
+@Path("tPermissionService")*/
 public class TPermissionServiceImpl implements TPermissionService{
 
 	@Autowired

@@ -1,16 +1,18 @@
 package com.dousnl.shiro.service.impl;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.transaction.interceptor.TransactionAspectSupport;
-
-import com.alibaba.dubbo.common.json.JSON;
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSONObject;
+import com.codingapi.tx.annotation.TxTransaction;
+import com.dousnl.api.domain.TUser;
+import com.dousnl.api.service.UserServiceDubbo;
 import com.dousnl.shiro.domain.Permission;
 import com.dousnl.shiro.domain.TXqb;
 import com.dousnl.shiro.domain.User;
@@ -29,6 +31,10 @@ public class UserServiceImpl implements UserService {
 	private PermissionMapper permissionMapper;
 	@Autowired
 	private TXqbMapper tXqbMapper;
+	@Reference(group="trade")
+	private UserServiceDubbo userServiceDubbo;
+	@Autowired
+	private UserService userService;
 	
 	@Override
 	public Set<String> selectRolesByUser(User user) {
@@ -124,5 +130,33 @@ public class UserServiceImpl implements UserService {
 			//TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
 			throw new RuntimeException("保存失败....");
 		}
+	}
+	@Override
+	//@TxTransaction(isStart = true)
+	public void testFbs(User user,TUser u) {
+		/*int saveUser = userMapper.insert(user);
+		//int insert = userServiceDubbo.saveUser(u);
+		int i=1/0;*/
+		try {
+			TXqb xqb=new TXqb();
+			xqb.setId(1);
+			xqb.setName("事务测试");
+			int primaryKey = tXqbMapper.updateByPrimaryKey(xqb);
+			//int updateUser = userMapper.updateByPrimaryKeySelective(user);
+			//int i=1/0;
+			xqb.setId(1);
+			int saveUser = tXqbMapper.insertSelective(xqb);
+		} catch (Exception e) {
+			e.printStackTrace();
+			//TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+			throw new RuntimeException("保存失败....");
+		}
+	}
+	@Override
+	@TxTransaction(isStart = true)
+	@Transactional
+	public List<TUser> listAllUser() {
+		List<TUser> listAllUser = userServiceDubbo.listAllUser();
+		return listAllUser;
 	}
 }

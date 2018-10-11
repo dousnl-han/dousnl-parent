@@ -23,6 +23,7 @@ public class KetSetTest {
         tree.put("c",3);
         tree.put("d",4);
         tree.put("b",2);
+        System.out.println(tree);
         for (String key:tree.keySet()){
             System.out.println(tree.get(key));
         }

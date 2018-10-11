@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.dousnl.mapper.TUserMapper;
 
-@Service(protocol={"dubbo"})
-@Path("tUserService")
+/*@Service(protocol={"dubbo"})
+@Path("tUserService")*/
 public class TUserServiceImpl implements TUserService{
 
 	@Autowired

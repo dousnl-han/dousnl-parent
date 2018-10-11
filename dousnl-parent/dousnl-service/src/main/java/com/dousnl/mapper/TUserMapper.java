@@ -1,9 +1,12 @@
 package com.dousnl.mapper;
 
+import java.util.List;
+
 import com.dousnl.api.domain.TUser;
 
 public interface TUserMapper {
-    int deleteByPrimaryKey(Integer id);
+	
+	int deleteByPrimaryKey(Integer id);
 
     int insert(TUser record);
 
@@ -14,4 +17,6 @@ public interface TUserMapper {
     int updateByPrimaryKeySelective(TUser record);
 
     int updateByPrimaryKey(TUser record);
+    
+    List<TUser> listAllUser();
 }

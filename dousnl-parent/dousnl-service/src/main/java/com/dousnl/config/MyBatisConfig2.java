@@ -1,19 +1,18 @@
 package com.dousnl.config;
 
 import java.util.Properties;
-
 import javax.sql.DataSource;
-
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.env.Environment;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 /**
@@ -31,8 +30,12 @@ public class MyBatisConfig2 {
     /**
      * 创建数据源
      * @Primary 该注解表示在同一个接口有多个实现类可以注入的时候，默认选择哪一个，而不是让@autowire注解报错 
+     * <bean name="lcnDataSourceProxy" class="com.lorne.tx.db.LCNDataSourceProxy">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="maxCount" value="20"/>
+    </bean>
      */
-    @Bean
+    @Bean(name="dataSource")
     @Primary
     public DataSource getDataSource() throws Exception{
         Properties props = new Properties();
@@ -55,6 +58,17 @@ public class MyBatisConfig2 {
         fb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(env.getProperty("mybatis.mapper-locations")));//指定xml文件位置
         
         return fb.getObject();
+    }
+    // 创建事务管理器1
+    /**
+     * @param dataSource
+     * <!-- 配置spring的PlatformTransactionManager，名字为默认值 -->  
+     * @return
+     */
+    @Bean
+    public DataSourceTransactionManager  txManager(@Qualifier("dataSource")DataSource dataSource) {
+    	 System.out.println("----------------事务配置已加载.....--------------");
+        return new DataSourceTransactionManager(dataSource);
     }
 
 }
