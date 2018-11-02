@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-cloud-zuul:war">
+    <output-path>$PROJECT_DIR$/spring-cloud-zuul/target</output-path>
+    <root id="archive" name="spring-cloud-zuul.war">
+      <element id="artifact" artifact-name="spring-cloud-zuul:war exploded" />
+    </root>
+  </artifact>
+</component>

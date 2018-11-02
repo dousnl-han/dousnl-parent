@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spring-cloud-zipkin-server:war">
+    <output-path>$PROJECT_DIR$/spring-cloud-zipkin-server/target</output-path>
+    <root id="archive" name="spring-cloud-zipkin-server.war">
+      <element id="artifact" artifact-name="spring-cloud-zipkin-server:war exploded" />
+    </root>
+  </artifact>
+</component>

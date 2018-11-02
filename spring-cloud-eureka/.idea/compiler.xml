@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-config-client" />
+        <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-client" />
+        <module name="spring-cloud-eureka-server" />
+        <module name="spring-cloud-feign" />
+        <module name="spring-cloud-service-ribbon" />
+        <module name="spring-cloud-zipkin-server" />
+        <module name="spring-cloud-zipkin-service-miya" />
+        <module name="spring-cloud-zipkin-servicehi" />
+        <module name="spring-cloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-config-client" target="1.8" />
+      <module name="spring-cloud-config-server" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-eureka-client" target="1.8" />
+      <module name="spring-cloud-eureka-server" target="1.8" />
+      <module name="spring-cloud-feign" target="1.8" />
+      <module name="spring-cloud-service-ribbon" target="1.8" />
+      <module name="spring-cloud-zipkin-server" target="1.8" />
+      <module name="spring-cloud-zipkin-service-miya" target="1.8" />
+      <module name="spring-cloud-zipkin-servicehi" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
