@@ -1,16 +1,24 @@
 package com.dousnl.thread;
 
 
-public class ThreadTest3 {
-	volatile int a=100;
+public class ThreadTest3 extends Thread{
+	volatile int a=0;
 	 
+	public ThreadTest3(int i) {
+		this.a=i;
+	}
+
 	public synchronized void option(int b){
 		a-=b;
 		System.out.println("u.int.a===>"+a+"线程id:"+Thread.currentThread().getId());
 	}
 	
+	@Override
+	public void run() {
+		System.out.println("run:"+a);
+	}
 	public static void main(String[] args) throws InterruptedException {
-		ThreadTest3 u=new ThreadTest3();
+		ThreadTest3 u=new ThreadTest3(1);
 		MyThread1 my1=new MyThread1(u);
 		MyThread1 my2=new MyThread1(u);
 		MyThread1 my3=new MyThread1(u);

@@ -4,6 +4,8 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Configuration;
 
+import com.SpringBootAppcation;
+
 /**
  * springMVC配置
  * @author hanliang

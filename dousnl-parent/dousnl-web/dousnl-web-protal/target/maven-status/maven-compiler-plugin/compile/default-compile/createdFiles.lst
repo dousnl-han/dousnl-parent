@@ -14,6 +14,7 @@ com\dousnl\activemq\spring\listener\QueueReceiver1$1.class
 com\dousnl\shiro\domain\TXqb.class
 com\dousnl\webservice\axisclient\WeatherWSStub$3.class
 com\dousnl\web\consumer\ConsumerClient.class
+com\dousnl\thread\pool\SemaphoreTest.class
 com\dousnl\designmode\proxy_mode\Proxy.class
 com\dousnl\util\security\RSATester.class
 com\dousnl\netty\httpfile\Constants.class
@@ -67,6 +68,7 @@ com\dousnl\webservice\axisclient\WeatherWSStub$GetSupportCityDatasetResult_type0
 com\dousnl\webservice\axisclient\WeatherWSStub$GetSupportCityStringResponse.class
 com\dousnl\webservice\client\GreetingResponse.class
 com\dousnl\shiro\service\XqbService.class
+com\dousnl\shiro\service\PermissionService.class
 com\dousnl\netty\timeserver\TimeServer$1.class
 com\dousnl\util\PropertiesLoader.class
 com\dousnl\web\controller\DubboCoustemr.class
@@ -93,6 +95,7 @@ com\dousnl\dubbo\ProviderService.class
 com\dousnl\dubbo\ProviderServiceImpl.class
 com\dousnl\netty\NettyServerDemo$1.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionDatasetResult_type0$Factory.class
+com\dousnl\service\TxManagerHttpRequestServiceImpl.class
 com\dousnl\netty\httpfile\HttpFileServer$1.class
 com\dousnl\interceptor\config\InterceptorConfig.class
 com\dousnl\web\decorator\MyTagRuleBundle.class
@@ -169,6 +172,7 @@ com\dousnl\thread\pool\CachedThreadPool.class
 com\dousnl\web\httpClient\HttpClientJson.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$FindUserById$Factory.class
 com\dousnl\signleton\UserList.class
+com\dousnl\aop\PointCuts.class
 com\dousnl\proxy\MyBusiness.class
 com\dousnl\util\fileExport\ExcelUtil.class
 com\dousnl\activemq\spring\listener\QueueReceiver1.class
@@ -190,6 +194,7 @@ com\dousnl\webservice\client\Greeting_GreetingImplPort_Client.class
 com\dousnl\bio\TimeServer.class
 com\dousnl\activemq\JMSConsumer.class
 com\dousnl\webservice\client\CxfClientTest.class
+com\dousnl\web\controller\AopTestController.class
 com\dousnl\redis\bootredis\RedisUtil.class
 com\dousnl\netty\echoserver\EchoClientHandler.class
 com\dousnl\annotation\LogConfig.class
@@ -238,6 +243,7 @@ com\dousnl\netty\websocket\WebSocketServer$1.class
 com\dousnl\util\CookieUtils.class
 com\dousnl\bio\TimeServerHandler.class
 com\dousnl\config\DruidConfig.class
+com\dousnl\web\controller\AopTestController$1.class
 com\dousnl\redis\configtwo\RedisObjectSerializer.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionCountry$Factory.class
 com\dousnl\shiro\service\UserService.class
@@ -250,6 +256,7 @@ com\dousnl\web\controller\DecoratorContoller.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$Greeting$Factory.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$FindUserById.class
 com\dousnl\config\SpringMvcConfig.class
+com\dousnl\SpringBootAppcation.class
 com\dousnl\webservice\axisclient\AxisWeartherClientTest.class
 com\dousnl\guava\guavaTest.class
 com\dousnl\itext\WeekDay$2.class
@@ -288,6 +295,7 @@ com\dousnl\webservice\axisclient\GreetingImplServiceStub$GetAllUserResponseE.cla
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$User.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionProvince$Factory.class
 com\dousnl\web\util\ExcelUtil.class
+com\dousnl\shiro\service\impl\PermissionServiceImpl.class
 com\dousnl\activemq\staticnetwork\QueueReciever.class
 com\dousnl\message\SendSMS.class
 com\dousnl\util\SystemPath.class
@@ -300,10 +308,12 @@ com\dousnl\web\util\DateUtils.class
 com\dousnl\webservice\axisclient\WeatherWSStub.class
 com\dousnl\sender\Sender.class
 com\dousnl\redis\configtwo\RedisSessionDAO.class
+com\dousnl\web\controller\AopTestController$Result.class
 com\dousnl\thread\ThreadLocalHolder$1.class
 com\dousnl\autoconfig\HelloServerProperties.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$3.class
 com\dousnl\webservice\axisclient\WeatherWSStub$6.class
+com\dousnl\aop\Aspect1.class
 com\dousnl\thread\AtomicIntegerTest.class
 com\dousnl\netty\httpfile\HttpFileServerHandler$1.class
 com\dousnl\activemq\staticnetwork\QueueReciever2.class
@@ -314,7 +324,9 @@ com\dousnl\webservice\axisclient\GreetingImplServiceStub$FindUserByIdResponse$Fa
 com\dousnl\webservice\axisclient\WeatherWSStub$ExtensionMapper.class
 com\dousnl\redis\configtwo\RedisConfig.class
 com\dousnl\designmode\proxy_mode\Sourceable.class
+com\dousnl\domain\TUser.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionCountry.class
+com\dousnl\service\TxManagerTxUrlServiceImpl.class
 com\dousnl\shiro\domain\Role.class
 com\dousnl\util\fileExport\GridExporter.class
 com\dousnl\webservice\client\ObjectFactory.class

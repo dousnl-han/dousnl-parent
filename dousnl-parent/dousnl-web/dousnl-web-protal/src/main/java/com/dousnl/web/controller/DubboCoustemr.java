@@ -8,6 +8,8 @@ import com.dousnl.api.service.UserServiceDubbo;
 import com.dousnl.shiro.domain.User;
 import com.dousnl.shiro.service.UserService;
 import com.dousnl.shiro.service.XqbService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -24,6 +26,8 @@ import com.alibaba.fastjson.JSON;
 @RequestMapping("/dubbo/")
 public class DubboCoustemr {
 
+	private Logger logger = LoggerFactory.getLogger(DubboCoustemr.class);
+	
 	@Reference(group="trade")
 	private HelloService helloService;
 	@Reference(group="trade")
@@ -40,6 +44,12 @@ public class DubboCoustemr {
 	public String start(){
 		System.out.println("dubbo coustemr test::"+helloService.speakHello("dubbo connect successfunlly!"));
 		return helloService.speakHello("dubbo connect successfunlly!");
+	}
+	
+	@RequestMapping("zk")
+	@ResponseBody
+	public String zk(){
+		return JSON.toJSONString(userServiceDubbo.listAllUser());
 	}
 	@RequestMapping("permission")
 	@ResponseBody
@@ -83,6 +93,21 @@ public class DubboCoustemr {
 	@ResponseBody
 	public String fbs3(){
 		boolean transtion = xqbService.testTranstionXqb();
+		if(transtion)
+			return "保存成功....";
+		return "保存失败....";
+	}
+	
+	/**
+	 * test simple transactional 默认的shiro userService不支持事务,
+	 * 此处用tXqbMapper测试(单机事务)
+	 * 测试通过!
+	 * 2018年10月11日 下午2:07:24
+	 */
+	@RequestMapping("simple")
+	@ResponseBody
+	public String simple(){
+		boolean transtion = xqbService.testSimpleTranstion();
 		if(transtion)
 			return "保存成功....";
 		return "保存失败....";

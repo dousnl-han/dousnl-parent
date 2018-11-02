@@ -14,14 +14,27 @@ public class CachedThreadPool {
 		//ExecutorService exec=Executors.newFixedThreadPool(5);//固定数量线程池
 		//ExecutorService exec=Executors.newSingleThreadExecutor();//单一线程
 		@SuppressWarnings("unused")
-		ThreadTest3 u=new ThreadTest3();
+		ThreadTest3 u=new ThreadTest3(0);
 		long start = System.currentTimeMillis();
 		System.out.println("start:"+start);
-		for(int i=0;i<30;i++){
+		/*for(int i=0;i<30000;i++){
 				SyncDomain s=SyncDomain.getInstance(i,i);
 				exec.execute(new MyThread1(s));
+				if(i==29999){
+					System.out.println(i+"==end");
+				}
+		}*/
+		for(int i=0;i<30000;i++){
+			SyncDomain s=SyncDomain.getInstance(i,i);
+			exec.execute(new ThreadTest3(i));
+			System.out.println(i);
+			if(i==29999){
+				System.out.println(i+"==end");
+			}
 		}
 		exec.shutdown();
+		
+		exec.execute(new ThreadTest3(30000));
 		long end = System.currentTimeMillis();
 		System.out.println("end:"+end);
 		System.out.println("time:"+(end-start)+"ms");

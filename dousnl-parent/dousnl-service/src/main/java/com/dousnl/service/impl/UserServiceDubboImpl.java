@@ -1,4 +1,4 @@
-package com.dousnl.service.impl;
+/*package com.dousnl.service.impl;
 
 import java.util.List;
 import javax.ws.rs.Path;
@@ -38,3 +38,4 @@ public class UserServiceDubboImpl implements UserServiceDubbo {
 	
 	
 }
+*/

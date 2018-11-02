@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.alibaba.dubbo.config.annotation.Service;
 
 
-/*@Service(protocol={"dubbo"})
-@Path("providerService")*/
+@Service(protocol={"dubbo"})
+@Path("providerService")
 public class ProviderServiceImpl implements ProviderService{
 
 	/*@Autowired

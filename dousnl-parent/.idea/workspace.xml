@@ -2,7 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ca53503-da1b-42bf-9ed7-9f51a50681bc" name="Default" comment="parent-idea-toAdd提交">
-      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/sortmap/KetSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/sortmap/KetSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/artifacts/service_miner_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/artifacts/service_miner_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_alibaba_druid_0_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_alibaba_dubbo_2_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_alibaba_fastjson_1_2_34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_caucho_hessian_4_0_38.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_codingapi_transaction_dubbo_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_codingapi_tx_client_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_codingapi_tx_plugins_db_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_api_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_collectionschema_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_core_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_dyuproject_protostuff_protostuff_runtime_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_github_1991wangliang_lorne_core_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_github_1991wangliang_lorne_exception_1_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_dbutils_commons_dbutils_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__io_netty_netty_all_4_1_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_axis_axis_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_services_3_1_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_0_spec_1_0_1_Beta1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_mybatis_mybatis_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_objenesis_objenesis_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_core_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_tx_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/service-miner.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../service-miner/src/main/java/com/dousnl/controller/DubboCoustemr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dousnl_web_protal_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dousnl_web_protal_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-boot/src/main/java/com/dousnl/ServletInitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-boot/src/main/java/com/dousnl/ServletInitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-boot/src/main/java/com/dousnl/SpringBootAppcation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-service/dousnl-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-service/dousnl-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/HelloServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/impl/UserServiceDubboImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/impl/UserServiceDubboImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/impl/XqbServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/impl/XqbServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-spring-security/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-spring-security/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-spring-security/.project" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-spring-security/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-spring-security/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-spring-security/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-spring-security/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-spring-security/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/dousnl-web-protal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/dousnl-web-protal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/dubbo/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/dubbo/ProviderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/interceptor/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/interceptor/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/redis/RedisDemo_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/redis/RedisDemo_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/XqbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/XqbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/XqbServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/XqbServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/thread/ThreadTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/thread/ThreadTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/thread/pool/CachedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/thread/pool/CachedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/web/controller/DubboCoustemr.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/web/controller/DubboCoustemr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/resources/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/Test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/Test_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/dubbo/ProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/dubbo/ProviderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/interceptor/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/interceptor/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/redis/RedisDemo_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/redis/RedisDemo_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/shiro/service/XqbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/shiro/service/XqbService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/shiro/service/impl/XqbServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/shiro/service/impl/XqbServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/thread/ThreadTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/thread/ThreadTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/thread/pool/CachedThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/thread/pool/CachedThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/web/controller/DubboCoustemr.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/classes/com/dousnl/web/controller/DubboCoustemr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent.war" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/application-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/dubbo/ProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/dubbo/ProviderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/interceptor/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/interceptor/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/redis/RedisDemo_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/redis/RedisDemo_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/shiro/service/XqbService.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/shiro/service/XqbService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/shiro/service/impl/XqbServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/shiro/service/impl/XqbServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/thread/ThreadTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/thread/ThreadTest3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/thread/pool/CachedThreadPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/thread/pool/CachedThreadPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/web/controller/DubboCoustemr.class" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/classes/com/dousnl/web/controller/DubboCoustemr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/lib/dousnl-api-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/lib/dousnl-api-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/lib/dousnl-boot-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/dousnl-parent/WEB-INF/lib/dousnl-boot-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dousnl-api/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,89 +173,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/resources/applicationContext.xml">
+      <file leaf-file-name="DubboCoustemr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/web/controller/DubboCoustemr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="1275">
+              <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyAuthenctiationSuccessHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/config/MyAuthenctiationSuccessHandler.java">
+      <file leaf-file-name="AspectBeforeServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/AspectBeforeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XqbServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/XqbServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TxStartTransactionServerImpl.java" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TxStartTransactionServerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceDubboImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/impl/UserServiceDubboImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowserSecurityController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/controller/BrowserSecurityController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dousnl-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionServerFactoryServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TransactionServerFactoryServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="714">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/controller/UserController.java">
+      <file leaf-file-name="TxManagerInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/interceptor/TxManagerInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slfjLoggerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLoggerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#223#243#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KetSetTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/sortmap/KetSetTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#382#399#0" expanded="true" />
-                <element signature="e#694#710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program File(x86)/jdk1.8/jdk/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slfjLogger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="391">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -133,6 +273,9 @@
         <option value="$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLogger.java" />
         <option value="$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/BaseResponse.java" />
         <option value="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/sortmap/KetSetTest.java" />
+        <option value="$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/TxManagerTxUrlServiceImpl.java" />
+        <option value="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/XqbServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -168,7 +311,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,16 +323,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dousnl-spring-security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../service-miner-consumer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +349,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KetSetTest">
+  <component name="RunManager" selected="Maven.dousnl-web-protal">
     <configuration name="KetSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dousnl.test.sortmap.KetSetTest" />
       <module name="dousnl-web-protal" />
@@ -233,6 +379,54 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="dousnl-service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/dousnl-service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="dousnl-web-protal" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/dousnl-web/dousnl-web-protal" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
     </configuration>
     <configuration name="spring-security" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -281,6 +475,8 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="Maven.dousnl-service" />
+      <item itemvalue="Maven.dousnl-web-protal" />
       <item itemvalue="Maven.spring-security" />
       <item itemvalue="Application.KetSetTest" />
     </list>
@@ -302,6 +498,17 @@
       <updated>1538118202205</updated>
       <workItem from="1538118203453" duration="3776000" />
       <workItem from="1539053086070" duration="3146000" />
+      <workItem from="1539309588086" duration="9717000" />
+      <workItem from="1539574263398" duration="70000" />
+      <workItem from="1539753603799" duration="1517000" />
+      <workItem from="1540259794467" duration="363000" />
+      <workItem from="1540776087208" duration="241000" />
+      <workItem from="1540793560294" duration="52000" />
+      <workItem from="1540804857823" duration="1389000" />
+      <workItem from="1540863791722" duration="2430000" />
+      <workItem from="1540885236277" duration="4097000" />
+      <workItem from="1540892175186" duration="2729000" />
+      <workItem from="1540976988734" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="本地提交">
       <created>1538118502049</created>
@@ -335,7 +542,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6922000" />
+    <option name="totallyTimeSpent" value="29586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,6 +555,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -359,64 +567,64 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.49731183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.62231183" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.36021507" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.53763443" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3293011" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.8669355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24193548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18527919" />
       <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293011" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2501792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23655914" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.53763443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Spring" order="0" weight="0.3293011" />
-      <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Run" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3293011" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.53763443" />
-      <window_info anchor="bottom" id="TODO" order="13" weight="0.23387097" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
-      <window_info anchor="right" id="Mybatis datasource" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.3293011" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.8669355" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2501792" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.49731183" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3293011" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18527919" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293011" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.53763443" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.36021507" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3293011" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.8669355" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.23655914" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.62231183" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,175 +639,436 @@
     <MESSAGE value="parent-idea-toAdd提交" />
     <option name="LAST_COMMIT_MESSAGE" value="parent-idea-toAdd提交" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/interceptor/TxManagerInterceptor.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/AspectBeforeServiceImpl.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TransactionServerFactoryServiceImpl.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TxStartTransactionServerImpl.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/resources/applicationContext.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0.jar!/META-INF/dubbo/com.alibaba.dubbo.rpc.cluster.LoadBalance">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/config/spring/ServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="-799">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/config/MyAuthenctiationSuccessHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/config/spring/context/annotation/DubboComponentScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/config/spring/extension/SpringExtensionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/config/utils/ReferenceConfigCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/controller/BrowserSecurityController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/container/logback/LogbackContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-119">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/controller/UserController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/config/spring/context/annotation/DubboConfigConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="11">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLogger.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/META-INF/maven/com.alibaba/dubbo-container-spring/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9.jar!/META-INF/maven/com.alibaba/dubbo-container-spring/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="357">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLoggerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#243#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/dousnl-spring-security.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/BaseResponse.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/validation/filter/ValidationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/config/MyAuthenctiationSuccessHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/rpc/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.9/dubbo-2.5.9-sources.jar!/com/alibaba/dubbo/rpc/filter/AccessLogFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="80" column="57" lean-forward="true" selection-start-line="80" selection-start-column="57" selection-end-line="80" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/AspectBeforeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TxRunningNoTransactionServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/bean/TxTransactionInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/bean/TxCompensateLocal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/control/service/IActionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/control/LCNTransactionAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/listener/service/impl/InitServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/controller/BrowserSecurityController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/filter/TransactionFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/resources/application-dev.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/balance/ConsistentHashLoadBalanceProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/abc.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/interceptor/TransactionAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="625">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/controller/UserController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/balance/RoundRobinLoadBalanceProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/resources/applicationContext.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/balance/RandomLoadBalanceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/balance/LCNBalanceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/balance/LeastActiveLoadBalanceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-security/src/main/java/com/dousnl/shiro/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/redis/bootredis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="138" column="20" lean-forward="true" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="147" column="29" lean-forward="true" selection-start-line="147" selection-start-column="29" selection-end-line="147" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/TxManagerTxUrlServiceImpl.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/config/service/TxManagerTxUrlService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TxDefaultTransactionServerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/mapper/TXqbMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/mapper/TXqbMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-security/src/main/java/com/dousnl/shiro/realm/AuthShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="49" column="89" selection-start-line="49" selection-start-column="89" selection-end-line="49" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/bean/TxTransactionLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="507" selection-start-line="507" selection-end-line="507" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="112" column="13" lean-forward="true" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/config/ConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/service/UserServiceDubbo.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/web/controller/DubboCoustemr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="94" column="52" selection-start-line="94" selection-start-column="52" selection-end-line="94" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/shiro/service/impl/XqbServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dousnl-service/src/main/java/com/dousnl/service/impl/UserServiceDubboImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/transaction-dubbo/4.1.0/transaction-dubbo-4.1.0-sources.jar!/com/codingapi/tx/dubbo/interceptor/TxManagerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program File(x86)/jdk1.8/jdk/src.zip!/java/lang/String.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/AspectBeforeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="323">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-spring-security/src/main/java/com/dousnl/spring/security/common/slfjLoggerFactory.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TransactionServerFactoryServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#223#243#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="714">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/test/java/org/dousnl/test/sortmap/KetSetTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/codingapi/tx-client/4.1.0/tx-client-4.1.0-sources.jar!/com/codingapi/tx/aop/service/impl/TxStartTransactionServerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#382#399#0" expanded="true" />
-            <element signature="e#694#710#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>dousnl-spring-security:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>dousnl-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -607,6 +1076,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.codingapi:transaction-dubbo:4.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27160493" />
               </list>
             </option>
           </splitter-proportions>

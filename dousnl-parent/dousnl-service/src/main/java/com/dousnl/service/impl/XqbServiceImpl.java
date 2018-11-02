@@ -1,4 +1,4 @@
-package com.dousnl.service.impl;
+/*package com.dousnl.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,3 +36,4 @@ public class XqbServiceImpl implements XqbService{
 	}
 
 }
+*/

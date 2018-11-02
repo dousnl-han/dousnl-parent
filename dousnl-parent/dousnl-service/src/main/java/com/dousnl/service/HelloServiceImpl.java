@@ -5,8 +5,8 @@ import javax.ws.rs.Path;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.dousnl.api.service.HelloService;
 
-/*@Service(protocol={"dubbo"})
-@Path("helloService")*/
+@Service(protocol={"dubbo"})
+@Path("helloService")
 public class HelloServiceImpl implements HelloService{
 	/**
 	 * dubbo provider server
