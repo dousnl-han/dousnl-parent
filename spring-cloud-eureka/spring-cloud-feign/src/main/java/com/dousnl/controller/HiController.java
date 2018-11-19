@@ -40,7 +40,13 @@ public class HiController {
 	 @RequestMapping(value = "/fbs",method = RequestMethod.GET)
 	 @ResponseBody
      public Boolean fbs(){
-        return xqbService.testFbs();
+		 boolean flag=false;
+		 try {
+			 flag=xqbService.testFbs();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+        return flag;
      }
 	 
 	 @RequestMapping(value = "/bc",method = RequestMethod.GET)

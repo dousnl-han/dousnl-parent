@@ -21,12 +21,16 @@ public class FbsController {
 	@RequestMapping(value="/ek",method = RequestMethod.GET)
 	@ResponseBody
 	public void hl(){
-		TUser u=new TUser();
-		u.setId(8);
-		u.setUsername("tran1");
-		u.setPassword("trans1");
-		int saveUser = userService.saveUser(u);
-		//return "保存成功....";
+		try {
+			TUser u=new TUser();
+			u.setId(8);
+			u.setUsername("tran1");
+			u.setPassword("trans1");
+			int saveUser = userService.saveUser(u);
+		} catch (Exception e) {
+			System.out.println("分布式调用异常!");
+			throw e;
+		}
 	}
 	@RequestMapping(value = "/cs",method = RequestMethod.GET)
 	 @ResponseBody
