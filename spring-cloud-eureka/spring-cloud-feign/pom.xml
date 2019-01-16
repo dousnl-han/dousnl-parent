@@ -39,6 +39,7 @@
            <groupId>org.springframework.cloud</groupId>
            <artifactId>spring-cloud-starter-eureka</artifactId>
            <exclusions>
+           	   <!-- 此配置加上影响-分布式事务-netty心跳检测 -->
                <exclusion>
                    <groupId>io.netty</groupId>
                    <artifactId>netty-buffer</artifactId>
@@ -53,6 +54,19 @@
            <groupId>org.springframework.boot</groupId>
            <artifactId>spring-boot-starter-web</artifactId>
        </dependency>
+
+		<dependency>
+		        <groupId>org.springframework.boot</groupId>
+		        <artifactId>spring-boot-starter-tomcat</artifactId>
+		        <scope>provided</scope>
+		</dependency>
+		<dependency>
+		  <groupId>javax.servlet</groupId>
+		  <artifactId>javax.servlet-api</artifactId>
+		  <version>3.1.0</version>
+		  <scope>provided</scope>
+		</dependency>
+
 
        <dependency>
            <groupId>org.springframework.boot</groupId>
@@ -123,5 +137,24 @@
   </dependencies>
   <build>
     <finalName>spring-cloud-feign</finalName>
+    <pluginManagement>
+    	<plugins>
+    		<plugin>
+    			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-maven-plugin</artifactId>
+	          <version>1.3.0.RELEASE</version>
+	          <configuration>
+	          	<mainClass>com.dousnl.ServiceFeignApplication</mainClass>
+	          </configuration>
+	          <executions>
+                  <execution>
+                      <goals>
+                          <goal>repackage</goal> 
+                      </goals>
+                  </execution>
+              </executions>
+    		</plugin>
+    	</plugins>
+    </pluginManagement>
   </build>
 </project>

@@ -1,19 +1,19 @@
-package com.dousnl.service.impl;
+/*package com.dousnl.service.impl;
 
 import com.codingapi.tx.netty.service.TxManagerHttpRequestService;
 import com.lorne.core.framework.utils.http.HttpUtils;
 import org.springframework.stereotype.Service;
 
-/**
+*//**
  * create by lorne on 2017/11/18
- */
+ *//*
 
 @Service
 public class TxManagerHttpRequestServiceImpl implements TxManagerHttpRequestService{
 
     @Override
     public String httpGet(String url) {
-        System.out.println("httpGet-start");
+        System.out.println("httpGet-start-url:"+url);
         String res = HttpUtils.get(url);
         System.out.println("httpGet-end");
         return res;
@@ -27,3 +27,4 @@ public class TxManagerHttpRequestServiceImpl implements TxManagerHttpRequestServ
         return res;
     }
 }
+*/

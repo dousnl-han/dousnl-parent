@@ -1,0 +1,15 @@
+com\dousnl\config\JasonObjectMapperWithView.class
+com\dousnl\config\FeignBeanFactoryPostProcessor.class
+com\dousnl\service\impl\TxManagerTxUrlServiceImpl.class
+com\dousnl\mapper\TXqbMapper.class
+com\dousnl\controller\HiController.class
+com\dousnl\ServiceFeignApplication.class
+com\dousnl\config\WebConfig.class
+com\dousnl\service\XqbService.class
+com\dousnl\service\UserServiceDubboClient.class
+com\dousnl\service\SchedualServiceHiHystric.class
+com\dousnl\domain\TXqb.class
+com\dousnl\service\XqbServiceImpl.class
+com\dousnl\service\SchedualServiceHi.class
+com\dousnl\config\MyBatisConfig2.class
+com\dousnl\domain\TUser.class

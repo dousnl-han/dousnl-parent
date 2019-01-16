@@ -3,6 +3,8 @@ package com.dousnl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
@@ -21,14 +23,18 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  *
  */
 
-
 @EnableAutoConfiguration
-@SpringBootApplication(scanBasePackages = {"com.dousnl.*"})
+@SpringBootApplication(scanBasePackages = {"com.dousnl.*","com.codingapi.tx.*"})
 @EnableEurekaClient
 @EnableFeignClients(basePackages = "com.dousnl.*")
-@ComponentScan(basePackages={"com.dousnl.*"})
+@ComponentScan(basePackages={"com.dousnl.*","com.codingapi.tx.*"})
 @EnableTransactionManagement(proxyTargetClass=true)
-public class ServiceFeignApplication {
+public class ServiceFeignApplication extends SpringBootServletInitializer{
+
+	@Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(ServiceFeignApplication.class);
+    }
 
 	public static void main(String[] args) {
 		SpringApplication.run(ServiceFeignApplication.class, args);

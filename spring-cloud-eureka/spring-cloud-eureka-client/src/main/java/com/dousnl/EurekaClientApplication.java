@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"com.dousnl.*","com.codingapi.tx.*"})
+@ComponentScan(basePackages={"com.dousnl.*"})
 @EnableFeignClients
 @EnableTransactionManagement(proxyTargetClass=true)
 @RestController

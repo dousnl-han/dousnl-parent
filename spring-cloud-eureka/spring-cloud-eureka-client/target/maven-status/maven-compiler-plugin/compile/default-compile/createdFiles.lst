@@ -1,0 +1,11 @@
+com\dousnl\config\JasonObjectMapperWithView.class
+com\dousnl\mapper\TUserMapper.class
+com\dousnl\service\impl\TxManagerTxUrlServiceImpl.class
+com\dousnl\EurekaClientApplication.class
+com\dousnl\service\UserServiceDubbo.class
+com\dousnl\controller\FbsController.class
+com\dousnl\service\impl\UserServiceDubboImpl.class
+com\dousnl\config\WebConfig.class
+com\dousnl\service\impl\TxManagerHttpRequestServiceImpl.class
+com\dousnl\config\MyBatisConfig2.class
+com\dousnl\domain\TUser.class

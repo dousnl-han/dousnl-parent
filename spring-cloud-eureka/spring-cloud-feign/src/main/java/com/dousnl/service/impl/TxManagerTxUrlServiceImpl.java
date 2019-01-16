@@ -18,7 +18,7 @@ public class TxManagerTxUrlServiceImpl implements TxManagerTxUrlService{
 
     @Override
     public String getTxUrl() {
-        System.out.println("load tm.manager.url ");
+        System.err.println("load tm.manager.url ");
         return url;
     }
 }
