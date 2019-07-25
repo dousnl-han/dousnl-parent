@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.codingapi.tx.annotation.TxTransaction;
+//import com.codingapi.tx.annotation.TxTransaction;
 import com.dousnl.api.domain.TUser;
 import com.dousnl.api.service.UserServiceDubbo;
 import com.dousnl.shiro.domain.Permission;
@@ -34,7 +34,7 @@ public class XqbServiceImpl implements XqbService{
 	 * 2018年10月11日 下午2:07:24
 	 */
 	@Override
-	@TxTransaction(isStart = true)
+	//@TxTransaction(isStart = true)
 	@Transactional
 	public boolean testTranstionXqb() {
 		try {

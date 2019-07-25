@@ -1,3 +1,4 @@
+/*
 package com.dousnl;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -6,11 +7,13 @@ import org.springframework.context.annotation.Configuration;
 
 import com.SpringBootAppcation;
 
+*/
 /**
  * springMVC配置
  * @author hanliang
  *
- */
+ *//*
+
 @Configuration
 public class ServletInitConfig extends SpringBootServletInitializer{
 
@@ -20,3 +23,4 @@ public class ServletInitConfig extends SpringBootServletInitializer{
 		return builder.sources(SpringBootAppcation.class);
 	}
 }
+*/

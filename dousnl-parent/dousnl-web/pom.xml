@@ -14,6 +14,9 @@
         <module>dousnl-web-protal</module>
         <module>dousnl-web-cloud</module>
         <module>dousnl-web-shiro</module>
+		<module>dounsl-web-autho</module>
+        <module>dousnl-web-wechat</module>
+        <module>dousnl-web-autho-server</module>
   </modules>
   <name>dousnl-web</name>
   <url>http://maven.apache.org</url>
@@ -117,5 +120,11 @@
 		<artifactId>dousnl-boot</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
+
+      <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.16.10</version>
+      </dependency>
   </dependencies>
 </project>

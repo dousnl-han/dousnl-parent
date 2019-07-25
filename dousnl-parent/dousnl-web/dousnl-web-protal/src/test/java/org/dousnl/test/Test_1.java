@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import com.SpringBootAppcation;
+import com.dousnl.SpringBootAppcation;
 import com.dousnl.shiro.domain.User;
 import com.dousnl.shiro.mapper.UserMapper;
 import com.dousnl.shiro.service.UserService;

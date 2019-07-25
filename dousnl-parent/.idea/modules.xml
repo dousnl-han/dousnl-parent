@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/dousnl-web/dounsl-web-autho/dounsl-web-autho.iml" filepath="$PROJECT_DIR$/dousnl-web/dounsl-web-autho/dounsl-web-autho.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-api/dousnl-api.iml" filepath="$PROJECT_DIR$/dousnl-api/dousnl-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-boot/dousnl-boot.iml" filepath="$PROJECT_DIR$/dousnl-boot/dousnl-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-parent.iml" filepath="$PROJECT_DIR$/dousnl-parent.iml" />
@@ -9,9 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/dousnl-service/dousnl-service.iml" filepath="$PROJECT_DIR$/dousnl-service/dousnl-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-spring-security/dousnl-spring-security.iml" filepath="$PROJECT_DIR$/dousnl-spring-security/dousnl-spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server/dousnl-web-autho-server.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server/dousnl-web-autho-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-cloud/dousnl-web-cloud.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-cloud/dousnl-web-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/dousnl-web-protal.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/dousnl-web-protal.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-shiro/dousnl-web-shiro.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-shiro/dousnl-web-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-wechat/dousnl-web-wechat.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-wechat/dousnl-web-wechat.iml" />
     </modules>
   </component>
 </project>

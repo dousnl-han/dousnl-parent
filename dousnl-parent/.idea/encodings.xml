@@ -8,8 +8,11 @@
     <file url="file://$PROJECT_DIR$/dousnl-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dousnl-spring-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dousnl-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dousnl-web/dounsl-web-autho" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-cloud" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-shiro" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-wechat" charset="UTF-8" />
   </component>
 </project>

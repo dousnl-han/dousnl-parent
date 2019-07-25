@@ -2,9 +2,12 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dousnl-spring-security" />
+    <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dounsl-web-autho" />
+    <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-cloud" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-shiro" />
+    <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-wechat" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

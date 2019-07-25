@@ -1,3 +1,4 @@
+/*
 package com;
 
 import java.io.IOException;
@@ -17,18 +18,23 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableScheduling
 @EnableTransactionManagement // 开启注解事务管理，等同于xml配置文件中的 <tx:annotation-driven />
 @ImportResource({"classpath:applicationContext.xml"})
-public class SpringBootAppcation{
-   
-	
-	/*SpringBootAppcation(){
+public class classSpringBootAppcation{
+
+
+	*/
+/*SpringBootAppcation(){
 		new SpringBootMvc();
-	}*/
-	/**
+	}*//*
+
+	*/
+/**
 	 * @description 第一种方法重写configureMessageConverter方法
 	 * @author hanliang
 	 * @version 1.0
-	 * @parameter @return 
+	 * @parameter @return
 	 *//*
+*/
+/*
 	@Override
 	public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 		super.configureMessageConverters(converters);
@@ -38,34 +44,43 @@ public class SpringBootAppcation{
 		fastConverter.setFastJsonConfig(fastJsonConfig);
 		converters.add(fastConverter);
 	}
-	*//**
+	*//*
+*/
+/**
 	 * @description 第二种方法注入HttpMessageConverters
 	 * @author hanliang
 	 * @version 1.0
-	 * @parameter @return 
+	 * @parameter @return
 	 *//*
+*/
+/*
 	@Bean
-	public HttpMessageConverters fastJsonHttpMessageConverters(){ 
+	public HttpMessageConverters fastJsonHttpMessageConverters(){
 		FastJsonHttpMessageConverter fastConverter=new FastJsonHttpMessageConverter();
 		FastJsonConfig fastJsonConfig=new FastJsonConfig();
 		fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
 		fastConverter.setFastJsonConfig(fastJsonConfig);
 		HttpMessageConverter<?> converter=fastConverter;
-		return new HttpMessageConverters(converter);	
+		return new HttpMessageConverters(converter);
 	}
-	*//**
+	*//*
+*/
+/**
 	 * @description 这是springleader参数    -javaagent:.\lib\springloaded-1.2.4.RELEASE.jar -noverify
 	 * @author hanliang
 	 * @version 1.0
-	 * @parameter @param args 
-	 *//*	
+	 * @parameter @param args
+	 *//*
+*/
+/*
 	static class SpringBootMvc extends SpringBootServletInitializer {
 		@Override
 		protected SpringApplicationBuilder configure(
 		SpringApplicationBuilder application) {
 		return application.sources(SpringBootAppcation.class);
 		}
-	}*/
+	}*//*
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootAppcation.class, args);
 		try {
@@ -75,3 +90,4 @@ public class SpringBootAppcation{
 		}
 	}
 }
+*/

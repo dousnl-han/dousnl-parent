@@ -1,6 +1,6 @@
 package com.dousnl.interceptor.config;
 
-import com.SpringBootAppcation;
+import com.dousnl.SpringBootAppcation;
 import com.dousnl.interceptor.MyInterceptor;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;

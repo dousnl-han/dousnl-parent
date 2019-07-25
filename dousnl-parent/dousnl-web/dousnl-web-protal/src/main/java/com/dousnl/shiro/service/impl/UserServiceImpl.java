@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.fastjson.JSONObject;
-import com.codingapi.tx.annotation.TxTransaction;
+//import com.codingapi.tx.annotation.TxTransaction;
 import com.dousnl.api.domain.TUser;
 import com.dousnl.api.service.UserServiceDubbo;
 import com.dousnl.shiro.domain.Permission;
@@ -153,7 +153,7 @@ public class UserServiceImpl implements UserService {
 		}
 	}
 	@Override
-	@TxTransaction(isStart = true)
+	//@TxTransaction(isStart = true)
 	@Transactional
 	public List<TUser> listAllUser() {
 		List<TUser> listAllUser = userServiceDubbo.listAllUser();

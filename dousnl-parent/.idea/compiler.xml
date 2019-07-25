@@ -6,17 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="dounsl-web-autho" />
         <module name="dousnl-api" />
         <module name="dousnl-boot" />
         <module name="dousnl-security" />
         <module name="dousnl-service" />
         <module name="dousnl-spring-security" />
+        <module name="dousnl-web-autho-server" />
         <module name="dousnl-web-cloud" />
         <module name="dousnl-web-protal" />
         <module name="dousnl-web-shiro" />
+        <module name="dousnl-web-wechat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dounsl-web-autho" target="1.8" />
       <module name="dousnl-api" target="1.8" />
       <module name="dousnl-boot" target="1.8" />
       <module name="dousnl-parent" target="1.8" />
@@ -24,9 +28,11 @@
       <module name="dousnl-service" target="1.8" />
       <module name="dousnl-spring-security" target="1.8" />
       <module name="dousnl-web" target="1.8" />
+      <module name="dousnl-web-autho-server" target="1.8" />
       <module name="dousnl-web-cloud" target="1.8" />
       <module name="dousnl-web-protal" target="1.8" />
       <module name="dousnl-web-shiro" target="1.8" />
+      <module name="dousnl-web-wechat" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
