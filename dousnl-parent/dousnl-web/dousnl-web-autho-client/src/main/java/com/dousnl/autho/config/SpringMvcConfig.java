@@ -1,4 +1,4 @@
-package com.dousnl.config.security;
+package com.dousnl.autho.config;
 
 
 import freemarker.template.TemplateException;
@@ -33,8 +33,6 @@ public class SpringMvcConfig {
 	public  InternalResourceViewResolver defaultViewResolver(){
 		InternalResourceViewResolver resolver=new InternalResourceViewResolver();
 		//springMvc手动配置，自动配置在applicaiton.properties文件
-		resolver.setPrefix("/WEB-INF/html");
-		resolver.setSuffix(".html");
 		resolver.setOrder(1);
 		return resolver;
 	}

@@ -17,6 +17,7 @@
 		<module>dounsl-web-autho</module>
         <module>dousnl-web-wechat</module>
         <module>dousnl-web-autho-server</module>
+      <module>dousnl-web-autho-client</module>
   </modules>
   <name>dousnl-web</name>
   <url>http://maven.apache.org</url>

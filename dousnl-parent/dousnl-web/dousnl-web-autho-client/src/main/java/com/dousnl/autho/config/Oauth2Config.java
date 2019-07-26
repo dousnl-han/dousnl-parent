@@ -1,4 +1,4 @@
-package com.dousnl.config;
+package com.dousnl.autho.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,13 +24,6 @@ public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
 
     @Autowired
     private AuthenticationManager authenticationManager;
-    //@Autowired
-    //private OauthTokenConverter oauthTokenConverter;
-
-    /*@Bean
-    public TokenStore tokenStore(){
-        return new JwtTokenStore(oauthTokenConverter);
-    }*/
 
     @Override
     public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
@@ -59,7 +52,7 @@ public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
         //super.configure(clients);
         clients.inMemory() // 使用in-memory存储
                 .withClient("clientapp") // client_id
-                .redirectUris("http://www.baidu.com")
+                .redirectUris("http://localhost:8090/hello")
                 .secret("112233") // client_secret
                 //授权码模式
                 //http://localhost:8080/oauth/authorize?client_id=clientapp&redirect_uri=http://www.baidu.com&response_type=code&scope=read_userinfo

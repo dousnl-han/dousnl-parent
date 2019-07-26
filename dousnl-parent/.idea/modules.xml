@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/dousnl-service/dousnl-service.iml" filepath="$PROJECT_DIR$/dousnl-service/dousnl-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-spring-security/dousnl-spring-security.iml" filepath="$PROJECT_DIR$/dousnl-spring-security/dousnl-spring-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-client/dousnl-web-autho-client.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-autho-client/dousnl-web-autho-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server/dousnl-web-autho-server.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server/dousnl-web-autho-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-cloud/dousnl-web-cloud.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-cloud/dousnl-web-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/dousnl-web-protal.iml" filepath="$PROJECT_DIR$/dousnl-web/dousnl-web-protal/dousnl-web-protal.iml" />

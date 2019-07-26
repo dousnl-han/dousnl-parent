@@ -1,7 +1,7 @@
-package com.dousnl.controller;
+package com.dousnl.autho.controller;
 
-import com.dousnl.domain.User;
-import com.dousnl.mapper.UserMapper;
+import com.dousnl.autho.domain.User;
+import com.dousnl.autho.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;

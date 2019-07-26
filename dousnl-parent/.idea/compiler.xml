@@ -12,6 +12,7 @@
         <module name="dousnl-security" />
         <module name="dousnl-service" />
         <module name="dousnl-spring-security" />
+        <module name="dousnl-web-autho-client" />
         <module name="dousnl-web-autho-server" />
         <module name="dousnl-web-cloud" />
         <module name="dousnl-web-protal" />
@@ -28,6 +29,7 @@
       <module name="dousnl-service" target="1.8" />
       <module name="dousnl-spring-security" target="1.8" />
       <module name="dousnl-web" target="1.8" />
+      <module name="dousnl-web-autho-client" target="1.8" />
       <module name="dousnl-web-autho-server" target="1.8" />
       <module name="dousnl-web-cloud" target="1.8" />
       <module name="dousnl-web-protal" target="1.8" />

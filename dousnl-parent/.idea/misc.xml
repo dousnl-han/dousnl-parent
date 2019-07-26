@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dousnl-spring-security" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dounsl-web-autho" />
+    <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-client" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-autho-server" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-cloud" />
     <file type="web" url="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal" />
