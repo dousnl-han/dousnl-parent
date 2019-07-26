@@ -20,7 +20,7 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
  */
 @Configuration
 @EnableAuthorizationServer
-public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
+public class Oauth2ServerConfig extends AuthorizationServerConfigurerAdapter {
 
     @Autowired
     private AuthenticationManager authenticationManager;
@@ -59,7 +59,7 @@ public class Oauth2Config extends AuthorizationServerConfigurerAdapter {
         //super.configure(clients);
         clients.inMemory() // 使用in-memory存储
                 .withClient("clientapp") // client_id
-                .redirectUris("http://www.baidu.com")
+                .redirectUris("http://localhost:9000/callback")
                 .secret("112233") // client_secret
                 //授权码模式
                 //http://localhost:8080/oauth/authorize?client_id=clientapp&redirect_uri=http://www.baidu.com&response_type=code&scope=read_userinfo

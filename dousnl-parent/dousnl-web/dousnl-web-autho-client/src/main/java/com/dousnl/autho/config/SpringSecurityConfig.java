@@ -44,6 +44,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 // 而其他的请求都需要认证
                 .anyRequest().authenticated().and()
                 // 修改spring security默认登录页面
-                .formLogin().loginPage("/login").permitAll().and().logout().permitAll();
+                .formLogin().loginPage("/login").permitAll().and().logout().permitAll()
+                .and().csrf().disable();
     }
 }

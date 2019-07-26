@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -28,6 +29,12 @@ public class User implements Serializable{
     private Integer roleId;
     
     private List<Role> roles;
+
+    private String accessToken;
+
+    private Calendar accessTokenValidity;
+
+    private String refreshToken;
 
     private static final long serialVersionUID = 1L;
 
