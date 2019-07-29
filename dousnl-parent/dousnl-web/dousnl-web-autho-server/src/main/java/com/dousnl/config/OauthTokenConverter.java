@@ -1,6 +1,7 @@
 package com.dousnl.config;
 
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
+import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 /**
@@ -10,10 +11,10 @@ import org.springframework.util.StringUtils;
  * @version 1.0
  * @date 2019/7/26 10:13
  */
-//@Component
+@Component
 public class OauthTokenConverter extends JwtAccessTokenConverter {
 
-    private final static String DCJM ="123";
+    private final static String DCJM ="test-secret";
 
     /**
      * 对称加密

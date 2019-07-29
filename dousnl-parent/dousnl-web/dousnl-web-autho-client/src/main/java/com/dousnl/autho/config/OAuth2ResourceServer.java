@@ -6,7 +6,8 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 
 /**
- * TODO
+ * 开启jwt方式授权时开启此类，
+ * 免登录，去服务器拿token即可
  *
  * @author hanliang
  * @version 1.0

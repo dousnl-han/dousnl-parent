@@ -32,7 +32,7 @@ public class AuthorizationCodeConfiguration {
         formData.add("grant_type", "authorization_code");
         formData.add("scope", "read_userinfo");
         formData.add("code", authorizationCode);
-        formData.add("redirect_uri", "http://localhost:9001/callback");
+        formData.add("redirect_uri", "http://localhost:9000/callback");
         return formData;
     }
 
