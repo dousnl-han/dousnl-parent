@@ -35,6 +35,7 @@ com\dousnl\util\EnumUtil.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionCountryResponse$Factory.class
 com\dousnl\netty\timeserver\TimeServer.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetWeather.class
+com\dousnl\redis\fbslock\Main.class
 com\dousnl\netty\NettyServerDemo.class
 com\dousnl\reflect\Reflections.class
 com\dousnl\web\controller\SwaggerController.class
@@ -56,6 +57,7 @@ com\dousnl\aop\TLogRecord.class
 com\dousnl\util\FileUtils.class
 com\dousnl\webservice\client\User.class
 com\dousnl\thread\AtomicIntegerTest$1.class
+com\dousnl\util\RedisDistributionLock.class
 com\dousnl\util\security\ExceptionUtils.class
 com\dousnl\genericity\GeneranteInterface.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$GreetingE.class
@@ -85,6 +87,7 @@ com\dousnl\genericity\GeneranteImpl.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$User$Factory.class
 com\dousnl\designmode\duixiang_shipeiqi\Source.class
 com\dousnl\netty\Command.class
+com\dousnl\redis\fbslock\Customer.class
 com\dousnl\thread\lock\LockTest$2.class
 com\dousnl\web\httpClient\SimpleClient.class
 com\dousnl\webservice\axisclient\WeatherWSStub$DataSet$Factory.class
@@ -95,11 +98,11 @@ com\dousnl\dubbo\ProviderService.class
 com\dousnl\dubbo\ProviderServiceImpl.class
 com\dousnl\netty\NettyServerDemo$1.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionDatasetResult_type0$Factory.class
-com\dousnl\service\TxManagerHttpRequestServiceImpl.class
 com\dousnl\netty\httpfile\HttpFileServer$1.class
 com\dousnl\interceptor\config\InterceptorConfig.class
 com\dousnl\web\decorator\MyTagRuleBundle.class
 com\dousnl\web\controller\PdfController.class
+com\dousnl\util\TestRedis$2.class
 com\dousnl\activemq\spring\listener\QueueRecieverListener.class
 com\dousnl\util\ThreadUtils.class
 com\dousnl\proxy\ProxyInterfaceTest.class
@@ -163,6 +166,7 @@ com\dousnl\druid\DruidProperties.class
 com\dousnl\thread\JavaGenerics$GenericsRun.class
 com\dousnl\util\EnumUtil$Type.class
 com\dousnl\bio\UuidTest.class
+com\dousnl\util\RedisLockTool.class
 com\dousnl\util\ValidateCodeUtils.class
 com\dousnl\web\controller\CheckCodeController.class
 com\dousnl\designmode\lei_shipeiqi\Source.class
@@ -187,6 +191,7 @@ com\dousnl\util\Reflections.class
 com\dousnl\web\controller\FreemarkerController.class
 com\dousnl\config\MybatisConfig.class
 com\dousnl\webservice\axisclient\GreetingImplServiceStub$GetAllUser$Factory.class
+com\dousnl\redis\ArticleThumbsUpRedisTest.class
 com\dousnl\security\domain\User.class
 com\dousnl\thread\pool\RunAndReslutTest.class
 com\dousnl\message\SendMsgUtil.class
@@ -202,6 +207,7 @@ com\dousnl\netty\echoserver\EchoServer.class
 com\dousnl\redis\configone\RedisClient.class
 com\dousnl\sender\SenderFactory.class
 com\dousnl\thread\TestA.class
+com\dousnl\util\RedisLockService.class
 com\dousnl\webservice\client\GetAllUser.class
 com\dousnl\hadoop\LogProduce.class
 com\dousnl\web\controller\LoginController.class
@@ -308,6 +314,7 @@ com\dousnl\web\util\DateUtils.class
 com\dousnl\webservice\axisclient\WeatherWSStub.class
 com\dousnl\sender\Sender.class
 com\dousnl\redis\configtwo\RedisSessionDAO.class
+com\dousnl\redis\fbslock\Bank.class
 com\dousnl\web\controller\AopTestController$Result.class
 com\dousnl\thread\ThreadLocalHolder$1.class
 com\dousnl\autoconfig\HelloServerProperties.class
@@ -324,9 +331,9 @@ com\dousnl\webservice\axisclient\GreetingImplServiceStub$FindUserByIdResponse$Fa
 com\dousnl\webservice\axisclient\WeatherWSStub$ExtensionMapper.class
 com\dousnl\redis\configtwo\RedisConfig.class
 com\dousnl\designmode\proxy_mode\Sourceable.class
+com\dousnl\util\TestRedis$1.class
 com\dousnl\domain\TUser.class
 com\dousnl\webservice\axisclient\WeatherWSStub$GetRegionCountry.class
-com\dousnl\service\TxManagerTxUrlServiceImpl.class
 com\dousnl\shiro\domain\Role.class
 com\dousnl\util\fileExport\GridExporter.class
 com\dousnl\webservice\client\ObjectFactory.class
@@ -339,6 +346,7 @@ com\dousnl\itext\Test$Day.class
 com\dousnl\webservice\axisclient\WeatherWSStub$5.class
 com\dousnl\netty\timeserver\TimeServer$ChildChannelHandler.class
 com\dousnl\redis\RedisDb.class
+com\dousnl\util\TestRedis.class
 com\dousnl\netty\websocket\WebSocketServerHandler.class
 com\dousnl\shiro\service\UserServiceAbstractImpl.class
 com\dousnl\util\DateUtiTest.class

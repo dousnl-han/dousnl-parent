@@ -4,6 +4,7 @@ import com.dousnl.autho.domain.User;
 import com.dousnl.autho.service.ClientUserDetails;
 import com.dousnl.autho.service.OAuth2Token;
 import com.dousnl.autho.service.TokenService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.RequestEntity;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.ModelAndView;
+
 import java.net.URI;
 import java.util.Calendar;
 import java.util.Date;
@@ -28,6 +30,7 @@ import java.util.Date;
  * @version 1.0
  * @date 2019/7/26 19:00
  */
+@Slf4j
 @Controller
 public class Oauth2Controller {
 
@@ -42,7 +45,7 @@ public class Oauth2Controller {
         User clientUser = userDetails.getClientUser();
 
         OAuth2Token token = tokenService.getToken(code);
-        System.out.println(">>>>>>9000 token："+token);
+        System.out.println(">>>>>>9000 token：" + token);
         clientUser.setAccessToken(token.getAccessToken());
 
         Calendar tokenValidity = Calendar.getInstance();
@@ -54,6 +57,7 @@ public class Oauth2Controller {
 
         return new ModelAndView("redirect:/mainpage");
     }
+
     @GetMapping("/mainpage")
     @ResponseBody
     public ModelAndView mainPage() {
@@ -62,7 +66,7 @@ public class Oauth2Controller {
         User user = userDetails.getClientUser();
         if (user.getAccessToken() == null) {
             String authEndpoint = tokenService.getAuthorizationEndpoint();
-            System.out.println(">>>>>>>授权站点authEndpoint:"+authEndpoint);
+            System.out.println(">>>>>>>授权站点authEndpoint:" + authEndpoint);
             return new ModelAndView("redirect:" + authEndpoint);
         }
         ModelAndView mv = new ModelAndView("mainpage");

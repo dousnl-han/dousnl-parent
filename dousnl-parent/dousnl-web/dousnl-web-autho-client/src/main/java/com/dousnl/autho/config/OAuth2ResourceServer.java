@@ -27,4 +27,5 @@ public class OAuth2ResourceServer extends ResourceServerConfigurerAdapter {
                 .requestMatchers()
                 .antMatchers("/api/**");
     }
+
 }

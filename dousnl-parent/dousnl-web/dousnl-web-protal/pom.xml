@@ -105,18 +105,18 @@
 	    <version>${activiti.version}</version>
 	</dependency> -->
     <!-- 热启动依赖配置,默认注释掉,和mybatis整合有冲突 -->
-    <!-- <dependency>
+     <!--<dependency>
 	  <groupId>org.springframework.boot</groupId>
 	  <artifactId>spring-boot-devtools</artifactId>
 	  <optional>true</optional>
 	  <scope>true</scope>
-	</dependency> -->
-	<!-- druid -->
-	<!-- <dependency>  
+	</dependency>-->
+
+	 <dependency>
         <groupId>com.alibaba</groupId>  
         <artifactId>druid</artifactId>  
         <version>${com.alibaba.druid.version}</version>  
-    </dependency> -->
+    </dependency>
 	<!-- mysql数据库链接 --> 
 	<dependency>
 		<groupId>mysql</groupId>

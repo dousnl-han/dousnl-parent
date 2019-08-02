@@ -18,5 +18,6 @@ public class Test {
         String value2="value_2";
         add(key,value,value2);
         System.out.println(JSON.toJSONString(map));
+        System.out.println(System.lineSeparator());
     }
 }
