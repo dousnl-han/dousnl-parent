@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dousnl-web-elasticsearch:war">
+    <output-path>$PROJECT_DIR$/dousnl-web/dousnl-web-elasticsearch/target</output-path>
+    <root id="archive" name="dousnl-web-elasticsearch.war">
+      <element id="artifact" artifact-name="dousnl-web-elasticsearch:war exploded" />
+    </root>
+  </artifact>
+</component>

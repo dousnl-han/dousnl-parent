@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
+    <option name="BUILD_PROCESS_ADDITIONAL_VM_OPTIONS" value="-javaagent:D:\lombok.jar" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -15,6 +18,7 @@
         <module name="dousnl-web-autho-client" />
         <module name="dousnl-web-autho-server" />
         <module name="dousnl-web-cloud" />
+        <module name="dousnl-web-elasticsearch" />
         <module name="dousnl-web-protal" />
         <module name="dousnl-web-shiro" />
         <module name="dousnl-web-wechat" />
@@ -32,6 +36,7 @@
       <module name="dousnl-web-autho-client" target="1.8" />
       <module name="dousnl-web-autho-server" target="1.8" />
       <module name="dousnl-web-cloud" target="1.8" />
+      <module name="dousnl-web-elasticsearch" target="1.8" />
       <module name="dousnl-web-protal" target="1.8" />
       <module name="dousnl-web-shiro" target="1.8" />
       <module name="dousnl-web-wechat" target="1.8" />
