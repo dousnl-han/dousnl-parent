@@ -5,7 +5,6 @@ import com.dousnl.mapper.GoodsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import java.util.Optional;
 
 /**
  * TODO
@@ -48,7 +47,7 @@ public class GoodsController {
     //http://localhost:8888/getOne?id=1525417362754
     @GetMapping("getOne")
     public GoodsInfo getOne(long id){
-        Optional<GoodsInfo> goodsInfo = goodsRepository.findById(id);
-        return goodsInfo.get();
+        GoodsInfo goodsInfo = goodsRepository.findOne(id);
+        return goodsInfo;
     }
 }
