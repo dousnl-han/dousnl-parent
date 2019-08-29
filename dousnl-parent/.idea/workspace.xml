@@ -32,8 +32,8 @@
       <file leaf-file-name="SpringBootAppcation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/SpringBootAppcation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -178,7 +178,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1460" />
@@ -586,7 +586,7 @@
       <workItem from="1564480937567" duration="1583000" />
       <workItem from="1564536900605" duration="1341000" />
       <workItem from="1564726022174" duration="9746000" />
-      <workItem from="1567058581976" duration="2368000" />
+      <workItem from="1567058581976" duration="2371000" />
     </task>
     <task id="LOCAL-00001" summary="本地提交">
       <created>1538118502049</created>
@@ -631,7 +631,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99534000" />
+    <option name="totallyTimeSpent" value="99537000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,7 +643,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -667,7 +667,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.8669355" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293011" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.24614395" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49780703" visible="true" weight="0.22429305" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1134,8 +1134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dousnl-web/dousnl-web-protal/src/main/java/com/dousnl/SpringBootAppcation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="210">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
