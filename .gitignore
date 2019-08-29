@@ -1,6 +1,10 @@
 ##ignore this file##
-../target/
+**/target/
 /target/
+**/*.iml
+*/logs/*
+/bin/
+
 
 .classpath
 .project
@@ -14,15 +18,16 @@
 *.class 
 *.dll
 *.exe
-*.o
-*.so
-# compression file
-*.7z
-*.dmg
-*.gz
-*.iso
+
+# Package Files #
 *.jar
-*.rar
-*.tar
-*.zip
 *.war
+*.ear
+*.idea
+
+# build Files #
+build.gradle
+gradle.properties
+build/
+.gradle/
+gradle-config
