@@ -3,7 +3,6 @@ package com.dousnl.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.data.elasticsearch.annotations.Document;
 
 /**
  * TODO
@@ -13,7 +12,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
  * @date 2019/8/2 14:33
  */
 @Data
-@Document(indexName = "testgoods",type = "goods")
+//@Document(indexName = "testgoods",type = "goods")
 @AllArgsConstructor
 @NoArgsConstructor
 public class GoodsInfo {
