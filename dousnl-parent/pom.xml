@@ -34,7 +34,7 @@
      <dubbo.version>2.5.9</dubbo.version>
      <zookeeper.version>3.4.6</zookeeper.version>
      <zkclient.version>0.1</zkclient.version>
-     <spring-boot-starter-web.version>1.4.1.RELEASE</spring-boot-starter-web.version>
+     <spring-boot-starter-web.version>2.5.12</spring-boot-starter-web.version>
      <lcn.last.version>4.1.0</lcn.last.version>
   </properties>
   <!-- 发布项目配置 -->
