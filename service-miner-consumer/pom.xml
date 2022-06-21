@@ -15,7 +15,7 @@
   <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      <activiti.version>5.22.0</activiti.version>
-     <mysql.version>5.1.31</mysql.version>
+     <mysql.version>8.0.28</mysql.version>
      <!-- <mysql.version>5.1.40</mysql.version> -->
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      <!-- 指定一下jdk的版本 ，这里我们使用jdk 1.8 ,默认是1.6 -->
@@ -258,7 +258,7 @@
 				<dependency>
 					<groupId>mysql</groupId>
 					<artifactId>mysql-connector-java</artifactId>
-					<version>5.1.38</version>
+					<version>8.0.28</version>
 				</dependency>
 			</dependencies>
 		</plugin>
